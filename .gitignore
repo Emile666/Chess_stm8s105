@@ -15,6 +15,7 @@
 *.sm8
 *.ls
 *.spy
+TAGS*.txt
 
 # Libraries
 *.lib
