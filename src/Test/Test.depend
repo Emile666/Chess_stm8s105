@@ -1,0 +1,22 @@
+# depslib dependency file v1.0
+1541886261 source:d:\owncloud\programming\chess_stm8s105\src\test\chess.c
+	"test.h"
+	"chess.h"
+	<stdbool.h>
+	<ctype.h>
+	<string.h>
+
+1541453467 d:\owncloud\programming\chess_stm8s105\src\test\test.h
+	<stdint.h>
+	<stdbool.h>
+
+1541882453 d:\owncloud\programming\chess_stm8s105\src\test\chess.h
+	<stdint.h>
+
+1541883652 source:d:\owncloud\programming\chess_stm8s105\src\test\main.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	"chess.h"
+	"test.h"
+

@@ -1,0 +1,771 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ADC_CR1_SPSEL_MSK	chess_stm8s105_main.h	84;"	macro
+BAUDRATE	uart.h	30;"	macro
+BISHOP_BLACK	chess.h	20;"	macro
+BISHOP_WHITE	chess.h	19;"	macro
+CHESS_BLACK	chess.h	37;"	macro
+CHESS_BLACK2	chess.h	38;"	macro
+CHESS_BLACK3	chess.h	39;"	macro
+CHESS_BLACK_CASTLING	chess.h	41;"	macro
+CHESS_BLACK_CASTLING2	chess.h	42;"	macro
+CHESS_BLACK_EP	chess.h	40;"	macro
+CHESS_BLACK_WHITE	chess.h	43;"	macro
+CHESS_INIT	chess.h	28;"	macro
+CHESS_NEW_GAME	chess.h	29;"	macro
+CHESS_PAUSE_WHITE	chess.h	36;"	macro
+CHESS_STM8S105_MAIN_H	chess_stm8s105_main.h	2;"	macro
+CHESS_WHITE	chess.h	30;"	macro
+CHESS_WHITE2	chess.h	31;"	macro
+CHESS_WHITE3	chess.h	32;"	macro
+CHESS_WHITE_CASTLING	chess.h	34;"	macro
+CHESS_WHITE_CASTLING2	chess.h	35;"	macro
+CHESS_WHITE_EP	chess.h	33;"	macro
+CLK1	chess_stm8s105_main.h	133;"	macro
+CLK2	chess_stm8s105_main.h	137;"	macro
+CLK_ICKCR_HSIEN	chess_stm8s105_main.h	80;"	macro
+CLK_ICKCR_HSIRDY	chess_stm8s105_main.h	81;"	macro
+CLK_SWCR_SWBSY	chess_stm8s105_main.h	82;"	macro
+CLK_SWCR_SWEN	chess_stm8s105_main.h	83;"	macro
+CLOCK1	tm1637.h	32;"	macro
+CLOCK2	tm1637.h	33;"	macro
+CMD_1WRB	i2c.h	108;"	macro
+CMD_1WRS	i2c.h	106;"	macro
+CMD_1WSB	i2c.h	109;"	macro
+CMD_1WT	i2c.h	110;"	macro
+CMD_1WWB	i2c.h	107;"	macro
+CMD_CHSL	i2c.h	104;"	macro
+CMD_DRST	i2c.h	102;"	macro
+CMD_SRP	i2c.h	105;"	macro
+CMD_WCFG	i2c.h	103;"	macro
+Counter	scheduler.h	47;"	member	struct:_task_struct
+DEFVALA	i2c.h	79;"	macro
+DEFVALB	i2c.h	80;"	macro
+DELAY	chess_stm8s105_main.h	64;"	macro
+DIO1	chess_stm8s105_main.h	136;"	macro
+DIO2	chess_stm8s105_main.h	138;"	macro
+DR	lcd_i2c.h	71;"	macro
+DS2482_ADDR	i2c.h	97;"	macro
+DS2482_CONFIG	i2c.h	98;"	macro
+DS2482_OW_POLL_LIMIT	i2c.h	99;"	macro
+DUL	eep.h	29;"	macro
+Delay	scheduler.h	46;"	member	struct:_task_struct
+Duration	scheduler.h	49;"	member	struct:_task_struct
+Duration_Max	scheduler.h	50;"	member	struct:_task_struct
+EEP_BASE_ADDR	eep.h	28;"	macro
+EMPTY	chess.h	14;"	macro
+ERR_CMD	uart.h	34;"	macro
+ERR_EMPTY	scheduler.h	38;"	macro
+ERR_MAX_TASKS	scheduler.h	39;"	macro
+ERR_NAME	scheduler.h	37;"	macro
+ERR_NUM	uart.h	35;"	macro
+En	lcd_i2c.h	69;"	macro
+FISCHER	chess_stm8s105_main.h	62;"	macro
+F_CPU	uart.h	29;"	macro
+GPINTENA	i2c.h	77;"	macro
+GPINTENB	i2c.h	78;"	macro
+GPIOA	i2c.h	90;"	macro
+GPIOB	i2c.h	91;"	macro
+GPPUA	i2c.h	84;"	macro
+GPPUB	i2c.h	85;"	macro
+I2C_ACK	i2c.h	48;"	macro
+I2C_CR2_ACK	i2c.h	31;"	macro
+I2C_CR2_POS	i2c.h	30;"	macro
+I2C_CR2_START	i2c.h	33;"	macro
+I2C_CR2_STOP	i2c.h	32;"	macro
+I2C_CR2_SWRST	i2c.h	29;"	macro
+I2C_IRQHandler	i2c.c	116;"	function	signature:(void)
+I2C_NACK	i2c.h	49;"	macro
+I2C_READ	i2c.h	51;"	macro
+I2C_RETRIES	i2c.h	52;"	macro
+I2C_SCL	chess_stm8s105_main.h	146;"	macro
+I2C_SDA	chess_stm8s105_main.h	145;"	macro
+I2C_SR1_ADDR	i2c.h	39;"	macro
+I2C_SR1_BTF	i2c.h	38;"	macro
+I2C_SR1_RXNE	i2c.h	37;"	macro
+I2C_SR1_SB	i2c.h	40;"	macro
+I2C_SR1_TXE	i2c.h	36;"	macro
+I2C_SR2_AF	i2c.h	42;"	macro
+I2C_SR3_BUSY	i2c.h	44;"	macro
+I2C_SR3_MSL	i2c.h	45;"	macro
+I2C_WRITE	i2c.h	50;"	macro
+INTCAPA	i2c.h	88;"	macro
+INTCAPB	i2c.h	89;"	macro
+INTCONA	i2c.h	81;"	macro
+INTCONB	i2c.h	82;"	macro
+INTFA	i2c.h	86;"	macro
+INTFB	i2c.h	87;"	macro
+IOCON	i2c.h	83;"	macro
+IODIRA	i2c.h	73;"	macro
+IODIRB	i2c.h	74;"	macro
+IPOLA	i2c.h	75;"	macro
+IPOLB	i2c.h	76;"	macro
+IR	lcd_i2c.h	72;"	macro
+ISR_TIME	chess_stm8s105_main.h	140;"	macro
+KING_BLACK	chess.h	26;"	macro
+KING_WHITE	chess.h	25;"	macro
+KNIGHT_BLACK	chess.h	22;"	macro
+KNIGHT_WHITE	chess.h	21;"	macro
+LCD_1LINE	lcd_i2c.h	61;"	macro
+LCD_2LINE	lcd_i2c.h	60;"	macro
+LCD_4BITMODE	lcd_i2c.h	59;"	macro
+LCD_5x10DOTS	lcd_i2c.h	62;"	macro
+LCD_5x8DOTS	lcd_i2c.h	63;"	macro
+LCD_8BITMODE	lcd_i2c.h	58;"	macro
+LCD_BACKLIGHT	lcd_i2c.h	66;"	macro
+LCD_BLINKOFF	lcd_i2c.h	49;"	macro
+LCD_BLINKON	lcd_i2c.h	48;"	macro
+LCD_CLEARDISPLAY	lcd_i2c.h	28;"	macro
+LCD_CURSORMOVE	lcd_i2c.h	53;"	macro
+LCD_CURSOROFF	lcd_i2c.h	47;"	macro
+LCD_CURSORON	lcd_i2c.h	46;"	macro
+LCD_CURSORSHIFT	lcd_i2c.h	32;"	macro
+LCD_DISPLAYCONTROL	lcd_i2c.h	31;"	macro
+LCD_DISPLAYMOVE	lcd_i2c.h	52;"	macro
+LCD_DISPLAYOFF	lcd_i2c.h	45;"	macro
+LCD_DISPLAYON	lcd_i2c.h	44;"	macro
+LCD_ENTRYLEFT	lcd_i2c.h	39;"	macro
+LCD_ENTRYMODESET	lcd_i2c.h	30;"	macro
+LCD_ENTRYRIGHT	lcd_i2c.h	38;"	macro
+LCD_ENTRYSHIFTDECREMENT	lcd_i2c.h	41;"	macro
+LCD_ENTRYSHIFTINCREMENT	lcd_i2c.h	40;"	macro
+LCD_FUNCTIONSET	lcd_i2c.h	33;"	macro
+LCD_MOVELEFT	lcd_i2c.h	55;"	macro
+LCD_MOVERIGHT	lcd_i2c.h	54;"	macro
+LCD_NOBACKLIGHT	lcd_i2c.h	67;"	macro
+LCD_RETURNHOME	lcd_i2c.h	29;"	macro
+LCD_SETCGRAMADDR	lcd_i2c.h	34;"	macro
+LCD_SETDDRAMADDR	lcd_i2c.h	35;"	macro
+LED_CLK	chess_stm8s105_main.h	105;"	macro
+LED_DIN	chess_stm8s105_main.h	103;"	macro
+LED_LOAD	chess_stm8s105_main.h	104;"	macro
+LM92_ADDR	i2c.h	59;"	macro
+LM92_ERR	i2c.h	62;"	macro
+LM92_FS	i2c.h	61;"	macro
+LM92_SIGNb	i2c.h	60;"	macro
+MAX7219_CLK_0	chess_stm8s105_main.h	108;"	macro
+MAX7219_CLK_1	chess_stm8s105_main.h	107;"	macro
+MAX7219_DIN_0	chess_stm8s105_main.h	110;"	macro
+MAX7219_DIN_1	chess_stm8s105_main.h	109;"	macro
+MAX7219_LOAD_0	chess_stm8s105_main.h	112;"	macro
+MAX7219_LOAD_1	chess_stm8s105_main.h	111;"	macro
+MAX7219_REG_DECD	max7219.h	36;"	macro
+MAX7219_REG_DIG0	max7219.h	28;"	macro
+MAX7219_REG_DIG1	max7219.h	29;"	macro
+MAX7219_REG_DIG2	max7219.h	30;"	macro
+MAX7219_REG_DIG3	max7219.h	31;"	macro
+MAX7219_REG_DIG4	max7219.h	32;"	macro
+MAX7219_REG_DIG5	max7219.h	33;"	macro
+MAX7219_REG_DIG6	max7219.h	34;"	macro
+MAX7219_REG_DIG7	max7219.h	35;"	macro
+MAX7219_REG_INTNS	max7219.h	37;"	macro
+MAX7219_REG_NO_OP	max7219.h	27;"	macro
+MAX7219_REG_SCANL	max7219.h	38;"	macro
+MAX7219_REG_SHUTD	max7219.h	39;"	macro
+MAX7219_REG_TEST	max7219.h	40;"	macro
+MAX_MSEC	scheduler.h	29;"	macro
+MAX_TASKS	scheduler.h	28;"	macro
+MCP23017_ADDR	i2c.h	69;"	macro
+MCP23017_INIT	i2c.h	70;"	macro
+NAME_LEN	scheduler.h	31;"	macro
+NO_ERR	scheduler.h	36;"	macro
+NO_ERR	uart.h	33;"	macro
+NO_SQUARE	chess.h	12;"	macro
+Name	scheduler.h	44;"	member	struct:_task_struct
+NonHandledInterrupt	stm8_interrupt_vector.c	30;"	function	signature:(void)
+OLATA	i2c.h	92;"	macro
+OLATB	i2c.h	93;"	macro
+PAWN_BLACK	chess.h	16;"	macro
+PAWN_WHITE	chess.h	15;"	macro
+PB_NC	chess_stm8s105_main.h	117;"	macro
+PC_NC	chess_stm8s105_main.h	128;"	macro
+PE_NC	chess_stm8s105_main.h	147;"	macro
+PLAYFIELD_SIZE	chess_stm8s105_main.h	149;"	macro
+PORTA_IRQHandler	chess_stm8s105_main.c	91;"	function	signature:(void)
+PORTA_IRQHandler	stm8_interrupt_vector.c	42;"	prototype	file:
+Period	scheduler.h	45;"	member	struct:_task_struct
+QUEEN_BLACK	chess.h	24;"	macro
+QUEEN_WHITE	chess.h	23;"	macro
+RING_BUFFER_H	ring_buffer.h	15;"	macro
+ROOK_BLACK	chess.h	18;"	macro
+ROOK_WHITE	chess.h	17;"	macro
+ROTENC_A	chess_stm8s105_main.h	127;"	macro
+ROTENC_B	chess_stm8s105_main.h	126;"	macro
+ROTENC_SW	chess_stm8s105_main.h	125;"	macro
+RX	chess_stm8s105_main.h	134;"	macro
+RX_BUF_SIZE	uart.h	38;"	macro
+Rw	lcd_i2c.h	70;"	macro
+SCL0	i2c.c	30;"	macro	file:
+SCL1	i2c.c	29;"	macro	file:
+SDA0	i2c.c	28;"	macro	file:
+SDA1	i2c.c	27;"	macro	file:
+SDA_in	i2c.c	25;"	macro	file:
+SDA_out	i2c.c	26;"	macro	file:
+SPI_CLK	chess_stm8s105_main.h	124;"	macro
+SPI_MISO	chess_stm8s105_main.h	122;"	macro
+SPI_MOSI	chess_stm8s105_main.h	123;"	macro
+STATUS_1WB	i2c.h	113;"	macro
+STATUS_DIR	i2c.h	120;"	macro
+STATUS_LL	i2c.h	116;"	macro
+STATUS_PPD	i2c.h	114;"	macro
+STATUS_RST	i2c.h	117;"	macro
+STATUS_SBR	i2c.h	118;"	macro
+STATUS_SD	i2c.h	115;"	macro
+STATUS_TSB	i2c.h	119;"	macro
+SWIM	chess_stm8s105_main.h	139;"	macro
+Status	scheduler.h	48;"	member	struct:_task_struct
+TASK_ENABLED	scheduler.h	34;"	macro
+TASK_READY	scheduler.h	33;"	macro
+TICKS_PER_SEC	scheduler.h	30;"	macro
+TIM2_CR1_CEN	chess_stm8s105_main.h	86;"	macro
+TIM2_IER_UIE	chess_stm8s105_main.h	85;"	macro
+TIM2_SR1_UIF	chess_stm8s105_main.h	87;"	macro
+TIM2_UPD_OVF_IRQHandler	chess_stm8s105_main.c	80;"	function	signature:(void)
+TIM2_UPD_OVF_IRQHandler	stm8_interrupt_vector.c	39;"	prototype	file:
+TIME	chess_stm8s105_main.h	61;"	macro
+TM1637_DELAY_USEC	tm1637.h	27;"	macro
+TM1637_I2C_COMM1	tm1637.h	28;"	macro
+TM1637_I2C_COMM2	tm1637.h	29;"	macro
+TM1637_I2C_COMM3	tm1637.h	30;"	macro
+TX	chess_stm8s105_main.h	135;"	macro
+TX_BUF_SIZE	uart.h	37;"	macro
+UART2_CR2_REN	chess_stm8s105_main.h	91;"	macro
+UART2_CR2_RIEN	chess_stm8s105_main.h	89;"	macro
+UART2_CR2_TEN	chess_stm8s105_main.h	90;"	macro
+UART2_CR2_TIEN	chess_stm8s105_main.h	88;"	macro
+UART2_CR3_CLKEN	chess_stm8s105_main.h	94;"	macro
+UART2_SR_RXNE	chess_stm8s105_main.h	93;"	macro
+UART2_SR_TC	chess_stm8s105_main.h	92;"	macro
+UART_BUFLEN	uart.h	31;"	macro
+UART_RX_IRQHandler	stm8_interrupt_vector.c	41;"	prototype	file:
+UART_RX_IRQHandler	uart.c	78;"	function	signature:(void)
+UART_TX_IRQHandler	stm8_interrupt_vector.c	40;"	prototype	file:
+UART_TX_IRQHandler	uart.c	57;"	function	signature:(void)
+UINT16_MAX	stdint.h	26;"	macro
+UINT32_MAX	stdint.h	27;"	macro
+UINT8_MAX	stdint.h	25;"	macro
+US_DLY	chess_stm8s105_main.h	63;"	macro
+_CHESS_H_	chess.h	9;"	macro
+_DELAY_H	delay.h	22;"	macro
+_EEP_H	eep.h	22;"	macro
+_I2C_H	i2c.h	22;"	macro
+_IOSTM8S105_H_	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	2;"	macro
+_LCD_I2C_H_	lcd_i2c.h	22;"	macro
+_MAX7219_H_	max7219.h	22;"	macro
+_SCHEDULER_H	scheduler.h	22;"	macro
+_STDINT_H_	stdint.h	23;"	macro
+_TM1637_H_	tm1637.h	22;"	macro
+_UART_H_	uart.h	24;"	macro
+__MODS0__	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\mods0.h	11;"	macro
+__STDBOOL	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	5;"	macro
+__bool_true_false_are_defined	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	11;"	macro
+_addr	lcd_i2c.c	46;"	variable
+_backlightval	lcd_i2c.c	53;"	variable
+_charsize	lcd_i2c.c	52;"	variable
+_clock_struct	chess_stm8s105_main.h	66;"	struct
+_cols	lcd_i2c.c	50;"	variable
+_displaycontrol	lcd_i2c.c	48;"	variable
+_displayfunction	lcd_i2c.c	47;"	variable
+_displaymode	lcd_i2c.c	49;"	variable
+_rows	lcd_i2c.c	51;"	variable
+_stext	stm8_interrupt_vector.c	38;"	prototype	file:
+_task_struct	scheduler.h	41;"	struct
+_vectab	stm8_interrupt_vector.c	44;"	variable
+active	chess_stm8s105_main.h	70;"	member	struct:_clock_struct
+active_clock	tm1637.c	27;"	variable
+active_prev	chess_stm8s105_main.h	71;"	member	struct:_clock_struct
+adc_task	chess_stm8s105_main.c	395;"	function	signature:(void)
+add_task	scheduler.c	117;"	function	signature:(void (*task_ptr)(), char *Name, uint16_t delay, uint16_t period)
+add_task	scheduler.h	56;"	prototype	signature:(void (*task_ptr)(), char *Name, uint16_t delay, uint16_t period)
+blink	chess_stm8s105_main.h	72;"	member	struct:_clock_struct
+bonus	chess_stm8s105_main.c	50;"	variable
+bool	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	7;"	macro
+buffer	ring_buffer.h	24;"	member	struct:ring_buffer
+chess_main	chess.c	123;"	function	signature:(void)
+chess_main	chess.h	45;"	prototype	signature:(void)
+chess_std	chess.c	35;"	variable
+chex	uart.c	237;"	function	signature:(uint8_t x, char *s)
+clear_lcd	chess_stm8s105_main.c	51;"	variable
+clk1	chess_stm8s105_main.c	42;"	variable
+clk2	chess_stm8s105_main.c	42;"	variable
+clk_idx	chess_stm8s105_main.c	45;"	variable
+clk_mode	chess_stm8s105_main.c	46;"	variable
+clk_pin	tm1637.c	28;"	variable
+clock_struct	chess_stm8s105_main.h	74;"	typedef	typeref:struct:_clock_struct
+clocks	chess_stm8s105_main.c	55;"	variable
+col_nr	chess_stm8s105_main.c	39;"	variable
+delay_msec	delay.c	50;"	function	signature:(uint16_t ms)
+delay_msec	delay.h	28;"	prototype	signature:(uint16_t ms)
+delay_usec	delay.c	95;"	function	signature:(uint16_t us)
+delay_usec	delay.h	29;"	prototype	signature:(uint16_t us)
+digit_to_segment	tm1637.c	40;"	variable
+digits	chess_stm8s105_main.h	73;"	member	struct:_clock_struct
+dio_pin	tm1637.c	29;"	variable
+disable_interrupts	chess_stm8s105_main.h	97;"	macro
+disable_task	scheduler.c	178;"	function	signature:(char *Name)
+disable_task	scheduler.h	59;"	prototype	signature:(char *Name)
+dispatch_tasks	scheduler.c	80;"	function	signature:(void)
+dispatch_tasks	scheduler.h	55;"	prototype	signature:(void)
+divisors	tm1637.c	61;"	variable
+ds2482_detect	i2c.c	604;"	function	signature:(uint8_t addr)
+ds2482_detect	i2c.h	142;"	prototype	signature:(uint8_t addr)
+ds2482_detect_bb	i2c.c	622;"	function	signature:(uint8_t addr)
+ds2482_detect_bb	i2c.h	143;"	prototype	signature:(uint8_t addr)
+ds2482_reset	i2c.c	470;"	function	signature:(uint8_t addr)
+ds2482_reset	i2c.h	139;"	prototype	signature:(uint8_t addr)
+ds2482_reset_bb	i2c.c	502;"	function	signature:(uint8_t addr)
+ds2482_reset_bb	i2c.h	140;"	prototype	signature:(uint8_t addr)
+ds2482_search_triplet	i2c.c	640;"	function	signature:(uint8_t search_direction, uint8_t addr)
+ds2482_search_triplet	i2c.h	144;"	prototype	signature:(uint8_t search_direction, uint8_t addr)
+ds2482_write_config	i2c.c	572;"	function	signature:(uint8_t addr)
+ds2482_write_config	i2c.h	141;"	prototype	signature:(uint8_t addr)
+ds2482_write_config_bb	i2c.c	535;"	function	signature:(uint8_t addr)
+eedata	eep.c	24;"	variable
+eeprom_read_config	eep.c	36;"	function	signature:(uint8_t eeprom_address)
+eeprom_read_config	eep.h	32;"	prototype	signature:(uint8_t eeprom_address)
+eeprom_write_config	eep.c	55;"	function	signature:(uint8_t eeprom_address,uint16_t data)
+eeprom_write_config	eep.h	33;"	prototype	signature:(uint8_t eeprom_address,uint16_t data)
+enable_interrupts	chess_stm8s105_main.h	96;"	macro
+enable_task	scheduler.c	149;"	function	signature:(char *Name)
+enable_task	scheduler.h	58;"	prototype	signature:(char *Name)
+execute_single_command	uart.c	260;"	function	signature:(char *s)
+execute_single_command	uart.h	46;"	prototype	signature:(char *s)
+false	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	10;"	macro
+game_mode	chess_stm8s105_main.c	47;"	variable
+get_next	ring_buffer.h	33;"	function	signature:(uint8_t cur_offset, uint8_t max_offset)
+get_timer1_value	chess_stm8s105_main.c	102;"	function	signature:(void)
+i2c_delay	i2c.c	32;"	function	signature:(void)
+i2c_init	i2c.c	125;"	function	signature:(bool bb)
+i2c_init	i2c.h	122;"	prototype	signature:(bool bb)
+i2c_read	i2c.c	251;"	function	signature:(uint8_t ack)
+i2c_read	i2c.h	127;"	prototype	signature:(uint8_t ack)
+i2c_read1	i2c.c	238;"	function	signature:(void)
+i2c_read1	i2c.h	129;"	prototype	signature:(void)
+i2c_readN	i2c.c	291;"	function	signature:(uint8_t num_bytes, uint8_t *buf)
+i2c_readN	i2c.h	128;"	prototype	signature:(uint8_t num_bytes, uint8_t *buf)
+i2c_read_arr	i2c.c	274;"	function	signature:(uint8_t *buf, int len)
+i2c_read_arr	i2c.h	130;"	prototype	signature:(uint8_t *buf, int len)
+i2c_read_bb	i2c.c	65;"	function	signature:(uint8_t ack)
+i2c_rep_start	i2c.c	195;"	function	signature:(uint8_t address)
+i2c_rep_start	i2c.h	124;"	prototype	signature:(uint8_t addr)
+i2c_rep_start_bb	i2c.c	101;"	function	signature:(uint8_t address)
+i2c_scan	uart.c	183;"	function	signature:(void)
+i2c_start	i2c.c	179;"	function	signature:(uint8_t address)
+i2c_start	i2c.h	123;"	prototype	signature:(uint8_t addr)
+i2c_start_bb	i2c.c	91;"	function	signature:(uint8_t address)
+i2c_stop	i2c.c	211;"	function	signature:(void)
+i2c_stop	i2c.h	125;"	prototype	signature:(void)
+i2c_stop_bb	i2c.c	108;"	function	signature:(void)
+i2c_write	i2c.c	225;"	function	signature:(uint8_t data)
+i2c_write	i2c.h	126;"	prototype	signature:(uint8_t data)
+i2c_write_bb	i2c.c	40;"	function	signature:(uint8_t data)
+in_buffer	uart.c	46;"	variable
+init_black	chess.c	27;"	variable
+init_white	chess.c	25;"	variable
+initialise_system_clock	chess_stm8s105_main.c	116;"	function	signature:(void)
+initialise_system_clock	chess_stm8s105_main.h	153;"	prototype	signature:(void)
+int16_t	stdint.h	32;"	typedef
+int32_t	stdint.h	34;"	typedef
+int8_t	stdint.h	29;"	typedef
+interrupt_handler	stm8_interrupt_vector.c	27;"	member	struct:interrupt_vector	file:
+interrupt_handler_t	stm8_interrupt_vector.c	23;"	typedef	file:
+interrupt_instruction	stm8_interrupt_vector.c	26;"	member	struct:interrupt_vector	file:
+interrupt_vector	stm8_interrupt_vector.c	25;"	struct	file:
+is_black_piece	chess.c	70;"	function	signature:(uint8_t sq_nr)
+is_castling_black	chess.c	114;"	function	signature:(uint8_t sq1, uint8_t sq2)
+is_castling_white	chess.c	103;"	function	signature:(uint8_t sq1, uint8_t sq2)
+is_en_passant_white	chess.c	89;"	function	signature:(uint8_t sq1, uint8_t sq2, sq3)
+is_white_piece	chess.c	79;"	function	signature:(uint8_t sq_nr)
+isr_cnt	uart.c	41;"	variable
+lcd_i2c_autoscroll_off	lcd_i2c.c	285;"	function	signature:(void)
+lcd_i2c_autoscroll_off	lcd_i2c.h	90;"	prototype	signature:(void)
+lcd_i2c_autoscroll_on	lcd_i2c.c	274;"	function	signature:(void)
+lcd_i2c_autoscroll_on	lcd_i2c.h	89;"	prototype	signature:(void)
+lcd_i2c_backlight_off	lcd_i2c.c	314;"	function	signature:(void)
+lcd_i2c_backlight_off	lcd_i2c.h	92;"	prototype	signature:(void)
+lcd_i2c_backlight_on	lcd_i2c.c	325;"	function	signature:(void)
+lcd_i2c_backlight_on	lcd_i2c.h	93;"	prototype	signature:(void)
+lcd_i2c_blink_off	lcd_i2c.c	209;"	function	signature:(void)
+lcd_i2c_blink_off	lcd_i2c.h	82;"	prototype	signature:(void)
+lcd_i2c_blink_on	lcd_i2c.c	220;"	function	signature:(void)
+lcd_i2c_blink_on	lcd_i2c.h	83;"	prototype	signature:(void)
+lcd_i2c_clear	lcd_i2c.c	119;"	function	signature:(void)
+lcd_i2c_clear	lcd_i2c.h	75;"	prototype	signature:(void)
+lcd_i2c_createChar	lcd_i2c.c	297;"	function	signature:(uint8_t location, uint8_t *charmap)
+lcd_i2c_createChar	lcd_i2c.h	91;"	prototype	signature:(uint8_t location, uint8_t *charmap)
+lcd_i2c_cursor_off	lcd_i2c.c	186;"	function	signature:(void)
+lcd_i2c_cursor_off	lcd_i2c.h	80;"	prototype	signature:(void)
+lcd_i2c_cursor_on	lcd_i2c.c	198;"	function	signature:(void)
+lcd_i2c_cursor_on	lcd_i2c.h	81;"	prototype	signature:(void)
+lcd_i2c_display_off	lcd_i2c.c	162;"	function	signature:(void)
+lcd_i2c_display_off	lcd_i2c.h	78;"	prototype	signature:(void)
+lcd_i2c_display_on	lcd_i2c.c	175;"	function	signature:(void)
+lcd_i2c_display_on	lcd_i2c.h	79;"	prototype	signature:(void)
+lcd_i2c_expanderWrite	lcd_i2c.c	376;"	function	signature:(uint8_t _data)
+lcd_i2c_expanderWrite	lcd_i2c.h	102;"	prototype	signature:(uint8_t _data)
+lcd_i2c_getBacklight	lcd_i2c.c	336;"	function	signature:(void)
+lcd_i2c_getBacklight	lcd_i2c.h	94;"	prototype	signature:(void)
+lcd_i2c_home	lcd_i2c.c	131;"	function	signature:(void)
+lcd_i2c_home	lcd_i2c.h	76;"	prototype	signature:(void)
+lcd_i2c_init	lcd_i2c.c	64;"	function	signature:(uint8_t lcd_addr, uint8_t lcd_cols, uint8_t lcd_rows, uint8_t charsize)
+lcd_i2c_init	lcd_i2c.h	74;"	prototype	signature:(uint8_t lcd_addr, uint8_t lcd_cols, uint8_t lcd_rows, uint8_t charsize)
+lcd_i2c_leftToRight	lcd_i2c.c	252;"	function	signature:(void)
+lcd_i2c_leftToRight	lcd_i2c.h	87;"	prototype	signature:(void)
+lcd_i2c_print	lcd_i2c.c	402;"	function	signature:(char *s)
+lcd_i2c_print	lcd_i2c.h	95;"	prototype	signature:(char *s)
+lcd_i2c_pulseEnable	lcd_i2c.c	388;"	function	signature:(uint8_t _data)
+lcd_i2c_pulseEnable	lcd_i2c.h	103;"	prototype	signature:(uint8_t _data)
+lcd_i2c_rightToLeft	lcd_i2c.c	263;"	function	signature:(void)
+lcd_i2c_rightToLeft	lcd_i2c.h	88;"	prototype	signature:(void)
+lcd_i2c_scrollDisplayLeft	lcd_i2c.c	232;"	function	signature:(void)
+lcd_i2c_scrollDisplayLeft	lcd_i2c.h	85;"	prototype	signature:(void)
+lcd_i2c_scrollDisplayRight	lcd_i2c.c	242;"	function	signature:(void)
+lcd_i2c_scrollDisplayRight	lcd_i2c.h	86;"	prototype	signature:(void)
+lcd_i2c_send	lcd_i2c.c	351;"	function	signature:(uint8_t value, uint8_t mode)
+lcd_i2c_send	lcd_i2c.h	100;"	prototype	signature:(uint8_t value, uint8_t mode)
+lcd_i2c_setCursor	lcd_i2c.c	143;"	function	signature:(uint8_t col, uint8_t row)
+lcd_i2c_setCursor	lcd_i2c.h	77;"	prototype	signature:(uint8_t col, uint8_t row)
+lcd_i2c_write4bits	lcd_i2c.c	365;"	function	signature:(uint8_t value)
+lcd_i2c_write4bits	lcd_i2c.h	101;"	prototype	signature:(uint8_t value)
+list_all_tasks	scheduler.c	238;"	function	signature:(void)
+list_all_tasks	scheduler.h	60;"	prototype	signature:(void)
+lm92_read	i2c.c	344;"	function	signature:(uint8_t addr, uint8_t *err)
+lm92_read	i2c.h	132;"	prototype	signature:(uint8_t addr, uint8_t *err)
+main	chess_stm8s105_main.c	450;"	function	signature:(void)
+max7219_init	max7219.c	34;"	function	signature:(void)
+max7219_init	max7219.h	42;"	prototype	signature:(void)
+max7219_write	max7219.c	53;"	function	signature:(uint16_t dat)
+max7219_write	max7219.h	43;"	prototype	signature:(uint16_t dat)
+max_tasks	scheduler.c	30;"	variable
+mcp23008_init	i2c.h	134;"	prototype	signature:(void)
+mcp23017_init	i2c.c	391;"	function	signature:(void)
+mcp23017_init	i2c.h	135;"	prototype	signature:(void)
+mcp23017_read	i2c.c	411;"	function	signature:(uint8_t reg)
+mcp23017_read	i2c.h	136;"	prototype	signature:(uint8_t reg)
+mcp23017_write	i2c.c	434;"	function	signature:(uint8_t reg, uint8_t data)
+mcp23017_write	i2c.h	137;"	prototype	signature:(uint8_t reg, uint8_t data)
+menu	chess_stm8s105_main.c	52;"	variable
+menu_handler	chess_stm8s105_main.c	273;"	function	signature:(void)
+millis	delay.c	31;"	function	signature:(void)
+millis	delay.h	27;"	prototype	signature:(void)
+min	chess_stm8s105_main.h	68;"	member	struct:_clock_struct
+new_game	chess.c	40;"	variable
+out_buffer	uart.c	45;"	variable
+ovf_buf_in	uart.c	40;"	variable
+pFunction	scheduler.h	43;"	member	struct:_task_struct
+pause_game	chess.c	41;"	variable
+piece_detect_move	chess.c	45;"	function	signature:(uint8_t *lifted)
+print_version_number	chess_stm8s105_main.c	432;"	function	signature:(void)
+print_version_number	chess_stm8s105_main.h	155;"	prototype	signature:(void)
+read_offset	ring_buffer.h	22;"	member	struct:ring_buffer
+recv_ack_bit	i2c.c	150;"	function	signature:(void)
+reed_relays	chess_stm8s105_main.c	40;"	variable
+reed_relays_old	chess.c	34;"	variable
+ring_buffer	ring_buffer.h	19;"	struct
+ring_buffer_get	ring_buffer.h	101;"	function	signature:(struct ring_buffer *ring)
+ring_buffer_get_next_read	ring_buffer.h	53;"	function	signature:(const struct ring_buffer *ring)
+ring_buffer_get_next_write	ring_buffer.h	43;"	function	signature:(const struct ring_buffer *ring)
+ring_buffer_in	uart.c	44;"	variable	typeref:struct:ring_buffer
+ring_buffer_init	ring_buffer.h	84;"	function	signature:(uint8_t *buffer, uint8_t size)
+ring_buffer_is_empty	ring_buffer.h	73;"	function	signature:(const struct ring_buffer *ring)
+ring_buffer_is_full	ring_buffer.h	63;"	function	signature:(const struct ring_buffer *ring)
+ring_buffer_out	uart.c	43;"	variable	typeref:struct:ring_buffer
+ring_buffer_put	ring_buffer.h	117;"	function	signature:(struct ring_buffer *ring, uint8_t data)
+rotenc_sw	chess_stm8s105_main.c	43;"	variable
+rs232_command_handler	uart.c	209;"	function	signature:(void)
+rs232_command_handler	uart.h	45;"	prototype	signature:(void)
+rs232_inbuf	uart.c	36;"	variable
+rs232_ptr	uart.c	37;"	variable
+scan_task	chess_stm8s105_main.c	369;"	function	signature:(void)
+scheduler_init	scheduler.c	38;"	function	signature:(void)
+scheduler_init	scheduler.h	53;"	prototype	signature:(void)
+scheduler_isr	scheduler.c	50;"	function	signature:(void)
+scheduler_isr	scheduler.h	54;"	prototype	signature:(void)
+sec	chess_stm8s105_main.h	69;"	member	struct:_clock_struct
+set_task_time_period	scheduler.c	208;"	function	signature:(uint16_t Period, char *Name)
+set_task_time_period	scheduler.h	57;"	prototype	signature:(uint16_t Period, char *Name)
+setup_gpio_ports	chess_stm8s105_main.c	173;"	function	signature:(void)
+setup_gpio_ports	chess_stm8s105_main.h	154;"	prototype	signature:(void)
+setup_timer2	chess_stm8s105_main.h	152;"	prototype	signature:(void)
+setup_timers	chess_stm8s105_main.c	142;"	function	signature:(void)
+size	ring_buffer.h	23;"	member	struct:ring_buffer
+sq_begin	chess.c	36;"	variable
+sq_begin_old	chess.c	38;"	variable
+sq_end	chess.c	37;"	variable
+sq_end_old	chess.c	39;"	variable
+t2_millis	delay.c	23;"	variable
+table	chess.c	22;"	variable
+task_list	scheduler.c	29;"	variable
+task_struct	scheduler.h	51;"	typedef	typeref:struct:_task_struct
+this_side_white	chess_stm8s105_main.c	44;"	variable
+times1	chess_stm8s105_main.c	48;"	variable
+times2	chess_stm8s105_main.c	49;"	variable
+tm1637_dio_pin_input	tm1637.c	90;"	function	signature:(void)
+tm1637_dio_pin_input	tm1637.h	36;"	prototype	signature:(void)
+tm1637_dio_pin_output	tm1637.c	101;"	function	signature:(void)
+tm1637_dio_pin_output	tm1637.h	37;"	prototype	signature:(void)
+tm1637_enable_clock_nr	tm1637.c	70;"	function	signature:(uint8_t clock_nr)
+tm1637_enable_clock_nr	tm1637.h	35;"	prototype	signature:(uint8_t clock_nr)
+tm1637_set_brightness	tm1637.c	141;"	function	signature:(uint8_t brightness, bool on)
+tm1637_set_brightness	tm1637.h	40;"	prototype	signature:(uint8_t brightness, bool on)
+tm1637_set_segments	tm1637.c	159;"	function	signature:(uint8_t *segments, uint8_t length, uint8_t pos)
+tm1637_set_segments	tm1637.h	41;"	prototype	signature:(uint8_t *segments, uint8_t length, uint8_t pos)
+tm1637_show_nr_dec	tm1637.c	187;"	function	signature:(int num, bool leading_zero, uint8_t length, uint8_t pos)
+tm1637_show_nr_dec	tm1637.h	42;"	prototype	signature:(int num, bool leading_zero, uint8_t length, uint8_t pos)
+tm1637_show_nr_dec_ex	tm1637.c	202;"	function	signature:(int num, uint8_t dots, bool lzero, uint8_t length, uint8_t pos)
+tm1637_show_nr_dec_ex	tm1637.h	43;"	prototype	signature:(int num, uint8_t dots, bool lzero, uint8_t length, uint8_t pos)
+tm1637_start	tm1637.c	112;"	function	signature:(void)
+tm1637_start	tm1637.h	38;"	prototype	signature:(void)
+tm1637_stop	tm1637.c	125;"	function	signature:(void)
+tm1637_stop	tm1637.h	39;"	prototype	signature:(void)
+tm1637_write_byte	tm1637.c	241;"	function	signature:(uint8_t b)
+tm1637_write_byte	tm1637.h	44;"	prototype	signature:(uint8_t b)
+tmr2_val	delay.c	73;"	function	signature:(void)
+true	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\stdbool.h	9;"	macro
+uart_init	uart.c	101;"	function	signature:(void)
+uart_init	uart.h	40;"	prototype	signature:(void)
+uart_kbhit	uart.c	160;"	function	signature:(void)
+uart_kbhit	uart.h	44;"	prototype	signature:(void)
+uart_read	uart.c	144;"	function	signature:(void)
+uart_read	uart.h	42;"	prototype	signature:(void)
+uart_write	uart.c	121;"	function	signature:(uint8_t data)
+uart_write	uart.h	41;"	prototype	signature:(uint8_t data)
+uint16_t	stdint.h	31;"	typedef
+uint32_t	stdint.h	33;"	typedef
+uint8_t	stdint.h	30;"	typedef
+update_clock	chess_stm8s105_main.c	209;"	function	signature:(clock_struct *p)
+update_clock_settings	chess_stm8s105_main.c	257;"	function	signature:(void)
+wait_for_interrupt	chess_stm8s105_main.h	98;"	macro
+write_offset	ring_buffer.h	21;"	member	struct:ring_buffer
+x5000	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	11;"	variable
+x5001	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	12;"	variable
+x5002	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	13;"	variable
+x5003	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	14;"	variable
+x5004	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	15;"	variable
+x5005	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	19;"	variable
+x5006	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	20;"	variable
+x5007	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	21;"	variable
+x5008	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	22;"	variable
+x5009	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	23;"	variable
+x500a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	27;"	variable
+x500b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	28;"	variable
+x500c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	29;"	variable
+x500d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	30;"	variable
+x500e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	31;"	variable
+x500f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	35;"	variable
+x5010	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	36;"	variable
+x5011	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	37;"	variable
+x5012	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	38;"	variable
+x5013	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	39;"	variable
+x5014	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	43;"	variable
+x5015	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	44;"	variable
+x5016	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	45;"	variable
+x5017	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	46;"	variable
+x5018	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	47;"	variable
+x5019	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	51;"	variable
+x501a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	52;"	variable
+x501b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	53;"	variable
+x501c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	54;"	variable
+x501d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	55;"	variable
+x501e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	59;"	variable
+x501f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	60;"	variable
+x5020	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	61;"	variable
+x5021	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	62;"	variable
+x5022	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	63;"	variable
+x5023	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	67;"	variable
+x5024	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	68;"	variable
+x5025	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	69;"	variable
+x5026	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	70;"	variable
+x5027	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	71;"	variable
+x5028	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	75;"	variable
+x5029	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	76;"	variable
+x502a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	77;"	variable
+x502b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	78;"	variable
+x502c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	79;"	variable
+x505a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	83;"	variable
+x505b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	84;"	variable
+x505c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	85;"	variable
+x505d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	86;"	variable
+x505e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	87;"	variable
+x505f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	88;"	variable
+x5062	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	89;"	variable
+x5064	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	90;"	variable
+x50a0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	94;"	variable
+x50a1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	95;"	variable
+x50b3	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	99;"	variable
+x50c0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	103;"	variable
+x50c1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	104;"	variable
+x50c3	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	105;"	variable
+x50c4	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	106;"	variable
+x50c5	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	107;"	variable
+x50c6	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	108;"	variable
+x50c7	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	109;"	variable
+x50c8	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	110;"	variable
+x50c9	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	111;"	variable
+x50ca	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	112;"	variable
+x50cb	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	113;"	variable
+x50cc	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	114;"	variable
+x50cd	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	115;"	variable
+x50d1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	119;"	variable
+x50d2	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	120;"	variable
+x50e0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	121;"	variable
+x50e1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	122;"	variable
+x50e2	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	123;"	variable
+x50f0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	127;"	variable
+x50f1	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	128;"	variable
+x50f2	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	129;"	variable
+x50f3	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	130;"	variable
+x5200	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	134;"	variable
+x5201	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	135;"	variable
+x5202	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	136;"	variable
+x5203	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	137;"	variable
+x5204	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	138;"	variable
+x5205	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	139;"	variable
+x5206	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	140;"	variable
+x5207	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	141;"	variable
+x5210	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	145;"	variable
+x5211	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	146;"	variable
+x5212	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	147;"	variable
+x5213	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	148;"	variable
+x5214	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	149;"	variable
+x5216	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	150;"	variable
+x5217	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	151;"	variable
+x5218	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	152;"	variable
+x5219	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	153;"	variable
+x521a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	154;"	variable
+x521b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	155;"	variable
+x521c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	156;"	variable
+x521d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	157;"	variable
+x521e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	158;"	variable
+x5240	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	162;"	variable
+x5241	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	163;"	variable
+x5242	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	164;"	variable
+x5243	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	165;"	variable
+x5244	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	166;"	variable
+x5245	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	167;"	variable
+x5246	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	168;"	variable
+x5247	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	169;"	variable
+x5249	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	170;"	variable
+x524a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	171;"	variable
+x524b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	172;"	variable
+x5250	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	176;"	variable
+x5251	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	177;"	variable
+x5252	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	178;"	variable
+x5253	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	179;"	variable
+x5254	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	180;"	variable
+x5255	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	181;"	variable
+x5256	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	182;"	variable
+x5257	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	183;"	variable
+x5258	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	184;"	variable
+x5259	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	185;"	variable
+x525a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	186;"	variable
+x525b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	187;"	variable
+x525c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	188;"	variable
+x525d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	189;"	variable
+x525e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	190;"	variable
+x525f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	191;"	variable
+x5260	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	192;"	variable
+x5261	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	193;"	variable
+x5262	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	194;"	variable
+x5263	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	195;"	variable
+x5264	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	196;"	variable
+x5265	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	197;"	variable
+x5266	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	198;"	variable
+x5267	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	199;"	variable
+x5268	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	200;"	variable
+x5269	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	201;"	variable
+x526a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	202;"	variable
+x526b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	203;"	variable
+x526c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	204;"	variable
+x526d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	205;"	variable
+x526e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	206;"	variable
+x526f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	207;"	variable
+x5300	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	211;"	variable
+x5301	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	212;"	variable
+x5302	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	213;"	variable
+x5303	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	214;"	variable
+x5304	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	215;"	variable
+x5305	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	216;"	variable
+x5306	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	217;"	variable
+x5307	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	218;"	variable
+x5308	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	219;"	variable
+x5309	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	220;"	variable
+x530a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	221;"	variable
+x530b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	222;"	variable
+x530c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	223;"	variable
+x530d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	224;"	variable
+x530e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	225;"	variable
+x530f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	226;"	variable
+x5310	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	227;"	variable
+x5311	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	228;"	variable
+x5312	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	229;"	variable
+x5313	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	230;"	variable
+x5314	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	231;"	variable
+x5320	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	235;"	variable
+x5321	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	236;"	variable
+x5322	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	237;"	variable
+x5323	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	238;"	variable
+x5324	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	239;"	variable
+x5325	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	240;"	variable
+x5326	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	241;"	variable
+x5327	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	242;"	variable
+x5328	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	243;"	variable
+x5329	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	244;"	variable
+x532a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	245;"	variable
+x532b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	246;"	variable
+x532c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	247;"	variable
+x532d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	248;"	variable
+x532e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	249;"	variable
+x532f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	250;"	variable
+x5330	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	251;"	variable
+x5340	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	255;"	variable
+x5341	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	256;"	variable
+x5342	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	257;"	variable
+x5343	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	258;"	variable
+x5344	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	259;"	variable
+x5345	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	260;"	variable
+x5346	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	261;"	variable
+x53e0	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	265;"	variable
+x5400	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	266;"	variable
+x5401	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	267;"	variable
+x5402	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	268;"	variable
+x5403	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	269;"	variable
+x5404	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	270;"	variable
+x5405	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	271;"	variable
+x5406	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	272;"	variable
+x5407	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	273;"	variable
+x5408	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	274;"	variable
+x5409	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	275;"	variable
+x540a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	276;"	variable
+x540b	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	277;"	variable
+x540c	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	278;"	variable
+x540d	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	279;"	variable
+x540e	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	280;"	variable
+x540f	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	281;"	variable
+x7f60	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	285;"	variable
+x7f70	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	289;"	variable
+x7f71	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	290;"	variable
+x7f72	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	291;"	variable
+x7f73	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	292;"	variable
+x7f74	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	293;"	variable
+x7f75	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	294;"	variable
+x7f76	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	295;"	variable
+x7f77	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	296;"	variable
+x7f80	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	300;"	variable
+x7f90	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	304;"	variable
+x7f91	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	305;"	variable
+x7f92	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	306;"	variable
+x7f93	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	307;"	variable
+x7f94	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	308;"	variable
+x7f95	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	309;"	variable
+x7f96	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	310;"	variable
+x7f97	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	311;"	variable
+x7f98	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	312;"	variable
+x7f99	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	313;"	variable
+x7f9a	c:\program files (x86)\cosmic\fse_compilers\cxstm8\hstm8\iostm8s105.h	314;"	variable
+xputs	uart.c	173;"	function	signature:(uint8_t *s)
+xputs	uart.h	43;"	prototype	signature:(uint8_t *s)

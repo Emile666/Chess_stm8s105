@@ -1,0 +1,1467 @@
+
+Map of Debug\chess_stm8s105.sm8 from link file Debug\chess_stm8s105.lkf - Sun Nov 04 15:49:45 2018
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 000083f5 length   885 segment .const
+start 00008411 end 0000a8b2 length  9377 segment .text
+start 00004000 end 00004004 length     4 segment .eeprom
+start 00000000 end 0000000e length    14 segment .bsct, initialized
+start 00008402 end 00008410 length    14 segment .bsct, from
+start 0000000e end 000000da length   204 segment .ubsct
+start 0000da:0 end 0000da:4 length     4 segment .bit, initialized
+start 00008410 end 00008411 length     1 segment .bit, from
+start 000000db end 000000db length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 00000c9c length  3228 segment .info.
+start 00000000 end 0001525d length 86621 segment .debug
+start 00008000 end 00008080 length   128 segment .const
+start 000083f5 end 00008402 length    13 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8:
+start 00008411 end 00008461 length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 0000000e end 0000000e length     0 section .ubsct
+start 00000000 end 0000002f length    47 section .info.
+
+Debug\chess.o:
+start ******** end ******** length     0 section .text *** removed ***
+start ******** end ******** length     0 section .bsct *** removed ***
+start ******** end ******** length     0 section .ubsct *** removed ***
+start 00000000 end 00002121 length  8481 section .debug
+start 0000002f end 0000009c length   109 section .info.
+start ******** end ******** length     0 section .bit *** removed ***
+start ******** end ******** length     0 section .const *** removed ***
+
+Debug\chess_stm8s105_main.o:
+start 00008461 end 00008b5e length  1789 section .text
+start 00000000 end 00000006 length     6 section .bsct
+start 0000000e end 00000026 length    24 section .ubsct
+start 00002121 end 000044c8 length  9127 section .debug
+start 0000009c end 00000117 length   123 section .info.
+start 0000da:0 end 0000da:2 length     2 section .bit
+start 00008080 end 0000831b length   667 section .const
+
+Debug\delay.o:
+start 00008b5e end 00008c3b length   221 section .text
+start 00000006 end 0000000a length     4 section .bsct
+start 000044c8 end 0000623e length  7542 section .debug
+start 00000117 end 00000184 length   109 section .info.
+
+Debug\eep.o:
+start ******** end ******** length     0 section .text *** removed ***
+start 0000623e end 00007efb length  7357 section .debug
+start 00000184 end 000001ef length   107 section .info.
+start 00004000 end 00004004 length     4 section .eeprom
+
+Debug\i2c.o:
+start 00008c3b end 0000925a length  1567 section .text
+start 00007efb end 0000a740 length 10309 section .debug
+start 000001ef end 0000025a length   107 section .info.
+
+Debug\lcd_i2c.o:
+start 0000925a end 0000947e length   548 section .text
+start 00000026 end 0000002e length     8 section .ubsct
+start 0000a740 end 0000cc5c length  9500 section .debug
+start 0000025a end 000002c9 length   111 section .info.
+start 0000831b end 00008323 length     8 section .const
+
+Debug\max7219.o:
+start 0000947e end 000094f3 length   117 section .text
+start 0000cc5c end 0000e88f length  7219 section .debug
+start 000002c9 end 00000338 length   111 section .info.
+
+Debug\scheduler.o:
+start 000094f3 end 00009860 length   877 section .text
+start 0000000a end 0000000b length     1 section .bsct
+start 0000002e end 00000092 length   100 section .ubsct
+start 0000e88f end 000109c8 length  8505 section .debug
+start 00000338 end 000003a9 length   113 section .info.
+start 00008323 end 00008357 length    52 section .const
+
+Debug\tm1637.o:
+start 00009860 end 00009aa5 length   581 section .text
+start ******** end ******** length     0 section .bsct *** removed ***
+start 00000092 end 00000094 length     2 section .ubsct
+start 000109c8 end 00012b78 length  8624 section .debug
+start 000003a9 end 00000417 length   110 section .info.
+start 00008357 end 0000836f length    24 section .const
+
+Debug\uart.o:
+start 00009aa5 end 00009f31 length  1164 section .text
+start 0000000b end 0000000e length     3 section .bsct
+start 00000094 end 000000d0 length    60 section .ubsct
+start 00012b78 end 000150f2 length  9594 section .debug
+start 00000417 end 00000483 length   108 section .info.
+start 0000da:2 end 0000da:4 length     2 section .bit
+start 0000836f end 00008397 length    40 section .const
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)atoi.o:
+start 00009f31 end 00009f8d length    92 section .text
+start 00000483 end 000004f5 length   114 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)isspac0.o:
+start 00009f8d end 00009f9d length    16 section .text
+start 000004f5 end 00000523 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)sprnt.o:
+start 00009f9d end 00009fb1 length    20 section .text
+start 00000523 end 00000596 length   115 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o:
+start 00009fb1 end 0000a4dd length  1324 section .text
+start 00000596 end 0000060a length   116 section .info.
+start 00008397 end 000083d0 length    57 section .const
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o:
+start 0000a4dd end 0000a5ed length   272 section .text
+start 0000060a end 0000067c length   114 section .info.
+start 000083d0 end 000083f5 length    37 section .const
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)idiv0.o:
+start 0000a5ed end 0000a5f8 length    11 section .text
+start 0000067c end 000006a8 length    44 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o:
+start 0000a5f8 end 0000a613 length    27 section .text
+start 000006a8 end 000006d5 length    45 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)putchr.o:
+start 0000a613 end 0000a616 length     3 section .text
+start 000006d5 end 00000749 length   116 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strcmp0.o:
+start 0000a616 end 0000a629 length    19 section .text
+start 00000749 end 00000777 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strlen0.o:
+start 0000a629 end 0000a635 length    12 section .text
+start 00000777 end 000007a5 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strncp.o:
+start 0000a635 end 0000a65b length    38 section .text
+start 000007a5 end 00000819 length   116 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)tolow0.o:
+start 0000a65b end 0000a666 length    11 section .text
+start 00000819 end 00000846 length    45 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)toup0.o:
+start 0000a666 end 0000a671 length    11 section .text
+start 00000846 end 00000872 length    44 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o:
+start 0000a671 end 0000a75c length   235 section .text
+start 00000872 end 000008a0 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)idiv.o:
+start 0000a75c end 0000a77a length    30 section .text
+start 000008a0 end 000008ce length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o:
+start 0000a77a end 0000a79b length    33 section .text
+start 000008ce end 000008fc length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o:
+start 0000a79b end 0000a7bb length    32 section .text
+start 000008fc end 0000092a length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadc.o:
+start 0000a7bb end 0000a7cb length    16 section .text
+start 0000092a end 00000959 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadd.o:
+start 0000a7cb end 0000a7e2 length    23 section .text
+start 00000959 end 00000988 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o:
+start 0000a7e2 end 0000a7f5 length    19 section .text
+start 00000988 end 000009b7 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgsub.o:
+start 0000a7f5 end 0000a80c length    23 section .text
+start 000009b7 end 000009e6 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o:
+start 0000a80c end 0000a821 length    21 section .text
+start 000009e6 end 00000a14 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o:
+start 000000d0 end 000000d4 length     4 section .ubsct
+start 00000a14 end 00000a42 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsub.o:
+start 0000a821 end 0000a839 length    24 section .text
+start 00000a42 end 00000a70 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o:
+start 0000a839 end 0000a84b length    18 section .text
+start 00000a70 end 00000a9e length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lzmp.o:
+start 0000a84b end 0000a85e length    19 section .text
+start 00000a9e end 00000acc length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o:
+start 0000a85e end 0000a870 length    18 section .text
+start 00000acc end 00000afa length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)sdivx.o:
+start 0000a870 end 0000a89b length    43 section .text
+start 00000afa end 00000b29 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o:
+start 0000a89b end 0000a8a2 length     7 section .text
+start 00000b29 end 00000b58 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o:
+start 000000d4 end 000000d7 length     3 section .ubsct
+start 00000b58 end 00000b86 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xymvx.o:
+start 0000a8a2 end 0000a8b1 length    15 section .text
+start 00000b86 end 00000bb5 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o:
+start 000000d7 end 000000da length     3 section .ubsct
+start 00000bb5 end 00000be3 length    46 section .info.
+
+Debug\stm8_interrupt_vector.o:
+start 0000a8b1 end 0000a8b2 length     1 section .text
+start 000150f2 end 0001525d length   363 section .debug
+start 00000be3 end 00000c60 length   125 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Debug\chess_stm8s105_main.o:
+_PORTA_IRQHandler            >    5   (5)
+_TIM2_UPD_OVF_IRQHandler     >   15   (12)
+_adc_task                       126   (38)
+_get_timer1_value                 4   (4)
+_initialise_system_clock          2   (2)
+_main                        >  228   (35)
+_menu_handler                    44   (4)
+_print_version_number            62   (22)
+_scan_task                       21   (5)
+_setup_gpio_ports                 2   (2)
+_setup_timers                     2   (2)
+_update_clock                     9   (6)
+_update_clock_settings            2   (2)
+
+Debug\delay.o:
+_delay_msec                      25   (17)
+_delay_usec                      14   (8)
+_millis                           8   (6)
+_tmr2_val                         6   (6)
+
+Debug\i2c.o:
+_I2C_IRQHandler              >    5   (5)
+_ds2482_detect               >   26   (3)
+_ds2482_detect_bb            >   38   (3)
+_ds2482_reset                    18   (5)
+_ds2482_reset_bb                 30   (5)
+_ds2482_search_triplet       >   25   (7)
+_ds2482_write_config             23   (5)
+_ds2482_write_config_bb          35   (5)
+_i2c_delay                        3   (3)
+_i2c_init                        17   (3)
+_i2c_read                        13   (5)
+_i2c_read1                        7   (2)
+_i2c_readN                        8   (5)
+_i2c_read_arr                >   13   (6)
+_i2c_read_bb                     19   (5)
+_i2c_rep_start                    7   (4)
+_i2c_rep_start_bb                25   (3)
+_i2c_start                       11   (3)
+_i2c_start_bb                    22   (3)
+_i2c_stop                         5   (2)
+_i2c_stop_bb                     16   (2)
+_i2c_write                        5   (2)
+_i2c_write_bb                    19   (5)
+_lm92_read                   >   21   (10)
+_mcp23017_init                   19   (3)
+_mcp23017_read                   16   (5)
+_mcp23017_write                  16   (5)
+_recv_ack_bit                     8   (5)
+
+Debug\lcd_i2c.o:
+_lcd_i2c_autoscroll_off      >   28   (2)
+_lcd_i2c_autoscroll_on       >   28   (2)
+_lcd_i2c_backlight_off           16   (2)
+_lcd_i2c_backlight_on            16   (2)
+_lcd_i2c_blink_off               28   (2)
+_lcd_i2c_blink_on                28   (2)
+_lcd_i2c_clear                   28   (2)
+_lcd_i2c_createChar          >   32   (6)
+_lcd_i2c_cursor_off              28   (2)
+_lcd_i2c_cursor_on               28   (2)
+_lcd_i2c_display_off             28   (2)
+_lcd_i2c_display_on              28   (2)
+_lcd_i2c_expanderWrite           14   (3)
+_lcd_i2c_getBacklight        >    2   (2)
+_lcd_i2c_home                    28   (2)
+_lcd_i2c_init                    34   (6)
+_lcd_i2c_leftToRight         >   28   (2)
+_lcd_i2c_print                   30   (4)
+_lcd_i2c_pulseEnable             17   (3)
+_lcd_i2c_rightToLeft         >   28   (2)
+_lcd_i2c_scrollDisplayLeft   >   28   (2)
+_lcd_i2c_scrollDisplayRight  >   28   (2)
+_lcd_i2c_send                    26   (6)
+_lcd_i2c_setCursor               40   (14)
+_lcd_i2c_write4bits              20   (3)
+
+Debug\max7219.o:
+_max7219_init                    10   (3)
+_max7219_write                    7   (7)
+
+Debug\scheduler.o:
+_add_task                        25   (15)
+_disable_task                >   10   (6)
+_dispatch_tasks                 137   (11) *** pointer() ***
+_enable_task                 >   10   (6)
+_list_all_tasks                 141   (53)
+_scheduler_init                   2   (2)
+_scheduler_isr                    3   (3)
+_set_task_time_period        >   12   (8)
+
+Debug\stm8_interrupt_vector.o:
+f_NonHandledInterrupt        >    6   (6)
+
+Debug\tm1637.o:
+_tm1637_dio_pin_input             2   (2)
+_tm1637_dio_pin_output            2   (2)
+_tm1637_enable_clock_nr           2   (2)
+_tm1637_set_brightness           25   (6)
+_tm1637_set_segments             26   (7)
+_tm1637_show_nr_dec          >   54   (7)
+_tm1637_show_nr_dec_ex           47   (21)
+_tm1637_start                    16   (2)
+_tm1637_stop                     16   (2)
+_tm1637_write_byte               19   (5)
+
+Debug\uart.o:
+_UART_RX_IRQHandler          >   16   (16)
+_UART_TX_IRQHandler          >   15   (15)
+_chex                        >    6   (6)
+_execute_single_command         190   (47)
+_i2c_scan                       143   (55)
+_rs232_command_handler          193   (3)
+_uart_init                       14   (10)
+_uart_kbhit                       5   (5)
+_uart_read                        9   (9)
+_uart_write                      36   (11)
+_xputs                           40   (4)
+
+C:\Program Files (x86:
+_atoi                            11   (8)
+L11__cvtup                        8   (6)
+L31__putbuf                      12   (9)
+L7__gnum                         19   (16)
+__print                          74   (51)
+__udiv                            4   (4)
+__uldiv                           6   (6)
+_isspace                          2   (2)
+__itob                           19   (15)
+__ltob                           23   (17)
+_putchar                          3   (3)
+_sprintf                         88   (14)
+_strcmp                           4   (4)
+_strlen                           2   (2)
+_strncpy                         10   (10)
+_tolower                          2   (2)
+_toupper                          2   (2)
+
+Stack size: 244
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _I2C_IRQHandler: (5)
+
+   2 > _PORTA_IRQHandler: (5)
+
+   3 > _TIM2_UPD_OVF_IRQHandler: (12)
+   4      + _scheduler_isr: (3)
+       
+   5 > _UART_RX_IRQHandler: (16)
+
+   6 > _UART_TX_IRQHandler: (15)
+
+   7 > __stext: (0)
+
+   8 > _chex: (6)
+
+   9 > _disable_task: (6)
+  10      + _strcmp: (4)
+       
+  11 > _ds2482_detect: (3)
+  12      + _ds2482_reset: (5)
+  13      |    + _i2c_read: (5)
+  14      |    |    + _i2c_delay: (3)
+  15      |    |    + _i2c_readN: (5)
+  16      |    |    |    + _i2c_delay --> 14
+          |    |    | 
+          |    | 
+  17      |    + _i2c_rep_start: (4)
+  18      |    |    + _i2c_delay --> 14
+          |    | 
+  19      |    + _i2c_start: (3)
+  20      |    |    + _i2c_delay --> 14
+  21      |    |    + _recv_ack_bit: (5)
+  22      |    |    |    + _i2c_delay --> 14
+          |    |    | 
+          |    | 
+  23      |    + _i2c_write: (2)
+  24      |    |    + _i2c_delay --> 14
+          |    | 
+          | 
+  25      + _ds2482_write_config: (5)
+  26      |    + _ds2482_reset --> 12
+  27      |    + _i2c_read --> 13
+  28      |    + _i2c_rep_start --> 17
+  29      |    + _i2c_start --> 19
+  30      |    + _i2c_write --> 23
+          | 
+       
+  31 > _ds2482_detect_bb: (3)
+  32      + _ds2482_reset_bb: (5)
+  33      |    + _i2c_read_bb: (5)
+  34      |    |    + _delay_usec: (8)
+  35      |    |    |    + _tmr2_val: (6)
+          |    |    | 
+          |    | 
+  36      |    + _i2c_rep_start_bb: (3)
+  37      |    |    + _delay_usec --> 34
+  38      |    |    + _i2c_start_bb: (3)
+  39      |    |    |    + _delay_usec --> 34
+  40      |    |    |    + _i2c_write_bb: (5)
+  41      |    |    |    |    + _delay_usec --> 34
+          |    |    |    | 
+          |    |    | 
+          |    | 
+  42      |    + _i2c_start_bb --> 38
+  43      |    + _i2c_stop_bb: (2)
+  44      |    |    + _delay_usec --> 34
+          |    | 
+  45      |    + _i2c_write_bb --> 40
+          | 
+  46      + _ds2482_write_config_bb: (5)
+  47      |    + _ds2482_reset_bb --> 32
+  48      |    + _i2c_read_bb --> 33
+  49      |    + _i2c_rep_start_bb --> 36
+  50      |    + _i2c_start_bb --> 38
+  51      |    + _i2c_stop_bb --> 43
+  52      |    + _i2c_write_bb --> 40
+          | 
+       
+  53 > _ds2482_search_triplet: (7)
+  54      + _ds2482_reset --> 12
+  55      + _i2c_read --> 13
+  56      + _i2c_rep_start --> 17
+  57      + _i2c_start --> 19
+  58      + _i2c_write --> 23
+       
+  59 > _enable_task: (6)
+  60      + _strcmp --> 10
+       
+  61 > _i2c_read_arr: (6)
+  62      + _i2c_read1: (2)
+  63      |    + _i2c_stop: (2)
+  64      |    |    + _i2c_delay --> 14
+          |    | 
+          | 
+       
+  65 > _lcd_i2c_autoscroll_off: (2)
+  66      + _lcd_i2c_send: (6)
+  67      |    + _lcd_i2c_write4bits: (3)
+  68      |    |    + _lcd_i2c_expanderWrite: (3)
+  69      |    |    |    + _i2c_start --> 19
+  70      |    |    |    + _i2c_stop --> 63
+  71      |    |    |    + _i2c_write --> 23
+          |    |    | 
+  72      |    |    + _lcd_i2c_pulseEnable: (3)
+  73      |    |    |    + _delay_usec --> 34
+  74      |    |    |    + _lcd_i2c_expanderWrite --> 68
+          |    |    | 
+          |    | 
+          | 
+       
+  75 > _lcd_i2c_autoscroll_on: (2)
+  76      + _lcd_i2c_send --> 66
+       
+  77 > _lcd_i2c_createChar: (6)
+  78      + _lcd_i2c_send --> 66
+       
+  79 > _lcd_i2c_getBacklight: (2)
+
+  80 > _lcd_i2c_leftToRight: (2)
+  81      + _lcd_i2c_send --> 66
+       
+  82 > _lcd_i2c_rightToLeft: (2)
+  83      + _lcd_i2c_send --> 66
+       
+  84 > _lcd_i2c_scrollDisplayLeft: (2)
+  85      + _lcd_i2c_send --> 66
+       
+  86 > _lcd_i2c_scrollDisplayRight: (2)
+  87      + _lcd_i2c_send --> 66
+       
+  88 > _lm92_read: (10)
+  89      + _i2c_readN --> 15
+  90      + _i2c_start --> 19
+  91      + _i2c_stop --> 63
+       
+  92 > _main: (35)
+  93      + _add_task: (15)
+  94      |    + _strncpy: (10)
+          | 
+  95      + _delay_msec: (17)
+  96      |    + _millis: (6)
+          | 
+  97      + _dispatch_tasks: (11)
+  98      |    + (_adc_task) ...
+  99      |    + (_menu_handler) ...
+ 100      |    + _millis --> 96
+ 101      |    + (_scan_task) ...
+          | 
+ 102      + _i2c_init: (3)
+ 103      |    + _delay_usec --> 34
+          | 
+ 104      + _initialise_system_clock: (2)
+ 105      + _lcd_i2c_init: (6)
+ 106      |    + _delay_msec --> 95
+ 107      |    + _delay_usec --> 34
+ 108      |    + _lcd_i2c_clear: (2)
+ 109      |    |    + _delay_usec --> 34
+ 110      |    |    + _lcd_i2c_send --> 66
+          |    | 
+ 111      |    + _lcd_i2c_display_on: (2)
+ 112      |    |    + _lcd_i2c_send --> 66
+          |    | 
+ 113      |    + _lcd_i2c_expanderWrite --> 68
+ 114      |    + _lcd_i2c_home: (2)
+ 115      |    |    + _delay_usec --> 34
+ 116      |    |    + _lcd_i2c_send --> 66
+          |    | 
+ 117      |    + _lcd_i2c_send --> 66
+ 118      |    + _lcd_i2c_write4bits --> 67
+          | 
+ 119      + _max7219_init: (3)
+ 120      |    + _max7219_write: (7)
+          | 
+ 121      + _max7219_write --> 120
+ 122      + _mcp23017_init: (3)
+ 123      |    + _mcp23017_write: (5)
+ 124      |    |    + _i2c_start --> 19
+ 125      |    |    + _i2c_stop --> 63
+ 126      |    |    + _i2c_write --> 23
+          |    | 
+          | 
+ 127      + _print_version_number: (22)
+ 128      |    + _lcd_i2c_backlight_on: (2)
+ 129      |    |    + _lcd_i2c_expanderWrite --> 68
+          |    | 
+ 130      |    + _lcd_i2c_clear --> 108
+ 131      |    + _lcd_i2c_print: (4)
+ 132      |    |    + _lcd_i2c_send --> 66
+          |    | 
+ 133      |    + _lcd_i2c_setCursor: (14)
+ 134      |    |    + _lcd_i2c_send --> 66
+          |    | 
+ 135      |    + _uart_write: (11)
+ 136      |    |    + _delay_msec --> 95
+          |    | 
+ 137      |    + _xputs: (4)
+ 138      |    |    + _uart_write --> 135
+          |    | 
+          | 
+ 139      + _rs232_command_handler: (3)
+ 140      |    + _execute_single_command: (47)
+ 141      |    |    + _atoi: (8)
+ 142      |    |    |    + _isspace: (2)
+          |    |    | 
+ 143      |    |    + _i2c_scan: (55)
+ 144      |    |    |    + _i2c_start --> 19
+ 145      |    |    |    + _i2c_stop --> 63
+ 146      |    |    |    + _sprintf: (14)
+ 147      |    |    |    |    + __print: (51)
+ 148      |    |    |    |    |    + L11__cvtup: (6)
+ 149      |    |    |    |    |    |    + _toupper: (2)
+          |    |    |    |    |    | 
+ 150      |    |    |    |    |    + L31__putbuf: (9)
+ 151      |    |    |    |    |    |    + _putchar: (3)
+          |    |    |    |    |    | 
+ 152      |    |    |    |    |    + L7__gnum: (16)
+ 153      |    |    |    |    |    + __itob: (15)
+ 154      |    |    |    |    |    |    + __udiv: (4)
+          |    |    |    |    |    | 
+ 155      |    |    |    |    |    + __ltob: (17)
+ 156      |    |    |    |    |    |    + __uldiv: (6)
+          |    |    |    |    |    | 
+ 157      |    |    |    |    |    + _strlen: (2)
+          |    |    |    |    | 
+          |    |    |    | 
+ 158      |    |    |    + _xputs --> 137
+          |    |    | 
+ 159      |    |    + _lcd_i2c_backlight_off: (2)
+ 160      |    |    |    + _lcd_i2c_expanderWrite --> 68
+          |    |    | 
+ 161      |    |    + _lcd_i2c_backlight_on --> 128
+ 162      |    |    + _lcd_i2c_blink_off: (2)
+ 163      |    |    |    + _lcd_i2c_send --> 66
+          |    |    | 
+ 164      |    |    + _lcd_i2c_blink_on: (2)
+ 165      |    |    |    + _lcd_i2c_send --> 66
+          |    |    | 
+ 166      |    |    + _lcd_i2c_cursor_off: (2)
+ 167      |    |    |    + _lcd_i2c_send --> 66
+          |    |    | 
+ 168      |    |    + _lcd_i2c_cursor_on: (2)
+ 169      |    |    |    + _lcd_i2c_send --> 66
+          |    |    | 
+ 170      |    |    + _lcd_i2c_display_off: (2)
+ 171      |    |    |    + _lcd_i2c_send --> 66
+          |    |    | 
+ 172      |    |    + _lcd_i2c_display_on --> 111
+ 173      |    |    + _list_all_tasks: (53)
+ 174      |    |    |    + _sprintf --> 146
+ 175      |    |    |    + _xputs --> 137
+          |    |    | 
+ 176      |    |    + _max7219_write --> 120
+ 177      |    |    + _mcp23017_read: (5)
+ 178      |    |    |    + _i2c_read1 --> 62
+ 179      |    |    |    + _i2c_rep_start --> 17
+ 180      |    |    |    + _i2c_start --> 19
+ 181      |    |    |    + _i2c_stop --> 63
+ 182      |    |    |    + _i2c_write --> 23
+          |    |    | 
+ 183      |    |    + _mcp23017_write --> 123
+ 184      |    |    + _print_version_number --> 127
+ 185      |    |    + _sprintf --> 146
+ 186      |    |    + _xputs --> 137
+          |    | 
+ 187      |    + _tolower: (2)
+ 188      |    + _uart_kbhit: (5)
+ 189      |    + _uart_read: (9)
+ 190      |    + _uart_write --> 135
+          | 
+ 191      + _scheduler_init: (2)
+ 192      + _setup_gpio_ports: (2)
+ 193      + _setup_timers: (2)
+ 194      + _sprintf --> 146
+ 195      + _uart_init: (10)
+ 196      + _xputs --> 137
+       
+ 197 > _set_task_time_period: (8)
+ 198      + _strcmp --> 10
+       
+ 199 > _tm1637_show_nr_dec: (7)
+ 200      + _tm1637_show_nr_dec_ex: (21)
+ 201      |    + _tm1637_set_segments: (7)
+ 202      |    |    + _tm1637_start: (2)
+ 203      |    |    |    + _delay_usec --> 34
+          |    |    | 
+ 204      |    |    + _tm1637_stop: (2)
+ 205      |    |    |    + _delay_usec --> 34
+          |    |    | 
+ 206      |    |    + _tm1637_write_byte: (5)
+ 207      |    |    |    + _delay_usec --> 34
+ 208      |    |    |    + _tm1637_dio_pin_input: (2)
+ 209      |    |    |    + _tm1637_dio_pin_output: (2)
+          |    |    | 
+          |    | 
+          | 
+       
+ 210 > f_NonHandledInterrupt: (6)
+
+ 211   L11__cvtup --> 148
+
+ 212   L31__putbuf --> 150
+
+ 213   L7__gnum --> 152
+
+ 214   __itob --> 153
+
+ 215   __ltob --> 155
+
+ 216   __print --> 147
+
+ 217   __udiv --> 154
+
+ 218   __uldiv --> 156
+
+ 219   _adc_task: (38)
+ 220      + _get_timer1_value: (4)
+ 221      + _lcd_i2c_print --> 131
+ 222      + _lcd_i2c_setCursor --> 133
+ 223      + _sprintf --> 146
+ 224      + _tm1637_enable_clock_nr: (2)
+ 225      + _tm1637_set_brightness: (6)
+ 226      |    + _tm1637_start --> 202
+ 227      |    + _tm1637_stop --> 204
+ 228      |    + _tm1637_write_byte --> 206
+          | 
+ 229      + _tm1637_show_nr_dec_ex --> 200
+ 230      + _uart_write --> 135
+ 231      + _update_clock: (6)
+       
+ 232   _add_task --> 93
+
+ 233   _atoi --> 141
+
+ 234   _delay_msec --> 95
+
+ 235   _delay_usec --> 34
+
+ 236   _dispatch_tasks --> 97
+
+ 237   _ds2482_reset --> 12
+
+ 238   _ds2482_reset_bb --> 32
+
+ 239   _ds2482_write_config --> 25
+
+ 240   _ds2482_write_config_bb --> 46
+
+ 241   _execute_single_command --> 140
+
+ 242   _get_timer1_value --> 220
+
+ 243   _i2c_delay --> 14
+
+ 244   _i2c_init --> 102
+
+ 245   _i2c_read --> 13
+
+ 246   _i2c_read1 --> 62
+
+ 247   _i2c_readN --> 15
+
+ 248   _i2c_read_bb --> 33
+
+ 249   _i2c_rep_start --> 17
+
+ 250   _i2c_rep_start_bb --> 36
+
+ 251   _i2c_scan --> 143
+
+ 252   _i2c_start --> 19
+
+ 253   _i2c_start_bb --> 38
+
+ 254   _i2c_stop --> 63
+
+ 255   _i2c_stop_bb --> 43
+
+ 256   _i2c_write --> 23
+
+ 257   _i2c_write_bb --> 40
+
+ 258   _initialise_system_clock --> 104
+
+ 259   _isspace --> 142
+
+ 260   _lcd_i2c_backlight_off --> 159
+
+ 261   _lcd_i2c_backlight_on --> 128
+
+ 262   _lcd_i2c_blink_off --> 162
+
+ 263   _lcd_i2c_blink_on --> 164
+
+ 264   _lcd_i2c_clear --> 108
+
+ 265   _lcd_i2c_cursor_off --> 166
+
+ 266   _lcd_i2c_cursor_on --> 168
+
+ 267   _lcd_i2c_display_off --> 170
+
+ 268   _lcd_i2c_display_on --> 111
+
+ 269   _lcd_i2c_expanderWrite --> 68
+
+ 270   _lcd_i2c_home --> 114
+
+ 271   _lcd_i2c_init --> 105
+
+ 272   _lcd_i2c_print --> 131
+
+ 273   _lcd_i2c_pulseEnable --> 72
+
+ 274   _lcd_i2c_send --> 66
+
+ 275   _lcd_i2c_setCursor --> 133
+
+ 276   _lcd_i2c_write4bits --> 67
+
+ 277   _list_all_tasks --> 173
+
+ 278   _max7219_init --> 119
+
+ 279   _max7219_write --> 120
+
+ 280   _mcp23017_init --> 122
+
+ 281   _mcp23017_read --> 177
+
+ 282   _mcp23017_write --> 123
+
+ 283   _menu_handler: (4)
+ 284      + _get_timer1_value --> 220
+ 285      + _lcd_i2c_print --> 131
+ 286      + _lcd_i2c_setCursor --> 133
+ 287      + _update_clock_settings: (2)
+       
+ 288   _millis --> 96
+
+ 289   _print_version_number --> 127
+
+ 290   _putchar --> 151
+
+ 291   _recv_ack_bit --> 21
+
+ 292   _rs232_command_handler --> 139
+
+ 293   _scan_task: (5)
+ 294      + _max7219_write --> 120
+ 295      + _mcp23017_read --> 177
+ 296      + _mcp23017_write --> 123
+       
+ 297   _scheduler_init --> 191
+
+ 298   _scheduler_isr --> 4
+
+ 299   _setup_gpio_ports --> 192
+
+ 300   _setup_timers --> 193
+
+ 301   _sprintf --> 146
+
+ 302   _strcmp --> 10
+
+ 303   _strlen --> 157
+
+ 304   _strncpy --> 94
+
+ 305   _tm1637_dio_pin_input --> 208
+
+ 306   _tm1637_dio_pin_output --> 209
+
+ 307   _tm1637_enable_clock_nr --> 224
+
+ 308   _tm1637_set_brightness --> 225
+
+ 309   _tm1637_set_segments --> 201
+
+ 310   _tm1637_show_nr_dec_ex --> 200
+
+ 311   _tm1637_start --> 202
+
+ 312   _tm1637_stop --> 204
+
+ 313   _tm1637_write_byte --> 206
+
+ 314   _tmr2_val --> 35
+
+ 315   _tolower --> 187
+
+ 316   _toupper --> 149
+
+ 317   _uart_init --> 195
+
+ 318   _uart_kbhit --> 188
+
+ 319   _uart_read --> 189
+
+ 320   _uart_write --> 135
+
+ 321   _update_clock --> 231
+
+ 322   _update_clock_settings --> 287
+
+ 323   _xputs --> 137
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_ADC_AWCRH                    0000540e   defined in Debug\chess.o
+_ADC_AWCRL                    0000540f   defined in Debug\chess.o
+_ADC_AWSRH                    0000540c   defined in Debug\chess.o
+_ADC_AWSRL                    0000540d   defined in Debug\chess.o
+_ADC_CR1                      00005401   defined in Debug\chess.o
+_ADC_CR2                      00005402   defined in Debug\chess.o
+_ADC_CR3                      00005403   defined in Debug\chess.o
+_ADC_CSR                      00005400   defined in Debug\chess.o
+_ADC_DBR                      000053e0   defined in Debug\chess.o
+_ADC_DRH                      00005404   defined in Debug\chess.o
+_ADC_DRL                      00005405   defined in Debug\chess.o
+_ADC_HTRH                     00005408   defined in Debug\chess.o
+_ADC_HTRL                     00005409   defined in Debug\chess.o
+_ADC_LTRH                     0000540a   defined in Debug\chess.o
+_ADC_LTRL                     0000540b   defined in Debug\chess.o
+_ADC_TDRH                     00005406   defined in Debug\chess.o
+_ADC_TDRL                     00005407   defined in Debug\chess.o
+_AWU_APR                      000050f1   defined in Debug\chess.o
+_AWU_CSR1                     000050f0   defined in Debug\chess.o
+_AWU_TBR                      000050f2   defined in Debug\chess.o
+_BEEP_CSR                     000050f3   defined in Debug\chess.o
+_CFG_GCR                      00007f60   defined in Debug\chess.o
+_CLK_CANCCR                   000050cb   defined in Debug\chess.o
+_CLK_CCOR                     000050c9   defined in Debug\chess.o
+_CLK_CKDIVR                   000050c6   defined in Debug\chess.o
+_CLK_CMSR                     000050c3   defined in Debug\chess.o
+_CLK_CSSR                     000050c8   defined in Debug\chess.o
+_CLK_ECKCR                    000050c1   defined in Debug\chess.o
+_CLK_HSITRIMR                 000050cc   defined in Debug\chess.o
+_CLK_ICKCR                    000050c0   defined in Debug\chess.o
+_CLK_PCKENR1                  000050c7   defined in Debug\chess.o
+_CLK_PCKENR2                  000050ca   defined in Debug\chess.o
+_CLK_SWCR                     000050c5   defined in Debug\chess.o
+_CLK_SWIMCCR                  000050cd   defined in Debug\chess.o
+_CLK_SWR                      000050c4   defined in Debug\chess.o
+_DM_BK1RE                     00007f90   defined in Debug\chess.o
+_DM_BK1RH                     00007f91   defined in Debug\chess.o
+_DM_BK1RL                     00007f92   defined in Debug\chess.o
+_DM_BK2RE                     00007f93   defined in Debug\chess.o
+_DM_BK2RH                     00007f94   defined in Debug\chess.o
+_DM_BK2RL                     00007f95   defined in Debug\chess.o
+_DM_CR1                       00007f96   defined in Debug\chess.o
+_DM_CR2                       00007f97   defined in Debug\chess.o
+_DM_CSR1                      00007f98   defined in Debug\chess.o
+_DM_CSR2                      00007f99   defined in Debug\chess.o
+_DM_ENFCTR                    00007f9a   defined in Debug\chess.o
+_EXTI_CR1                     000050a0   defined in Debug\chess.o
+_EXTI_CR2                     000050a1   defined in Debug\chess.o
+_FLASH_CR1                    0000505a   defined in Debug\chess.o
+_FLASH_CR2                    0000505b   defined in Debug\chess.o
+_FLASH_DUKR                   00005064   defined in Debug\chess.o
+_FLASH_FPR                    0000505d   defined in Debug\chess.o
+_FLASH_IAPSR                  0000505f   defined in Debug\chess.o
+_FLASH_NCR2                   0000505c   defined in Debug\chess.o
+_FLASH_NFPR                   0000505e   defined in Debug\chess.o
+_FLASH_PUKR                   00005062   defined in Debug\chess.o
+_I2C_CCRH                     0000521c   defined in Debug\chess.o
+_I2C_CCRL                     0000521b   defined in Debug\chess.o
+_I2C_CR1                      00005210   defined in Debug\chess.o
+_I2C_CR2                      00005211   defined in Debug\chess.o
+_I2C_DR                       00005216   defined in Debug\chess.o
+_I2C_FREQR                    00005212   defined in Debug\chess.o
+_I2C_IRQHandler               00008d7a   defined in Debug\i2c.o section .text
+_I2C_ITR                      0000521a   defined in Debug\chess.o
+_I2C_OARH                     00005214   defined in Debug\chess.o
+_I2C_OARL                     00005213   defined in Debug\chess.o
+_I2C_PECR                     0000521e   defined in Debug\chess.o
+_I2C_SR1                      00005217   defined in Debug\chess.o
+_I2C_SR2                      00005218   defined in Debug\chess.o
+_I2C_SR3                      00005219   defined in Debug\chess.o
+_I2C_TRISER                   0000521d   defined in Debug\chess.o
+_ITC_SPR1                     00007f70   defined in Debug\chess.o
+_ITC_SPR2                     00007f71   defined in Debug\chess.o
+_ITC_SPR3                     00007f72   defined in Debug\chess.o
+_ITC_SPR4                     00007f73   defined in Debug\chess.o
+_ITC_SPR5                     00007f74   defined in Debug\chess.o
+_ITC_SPR6                     00007f75   defined in Debug\chess.o
+_ITC_SPR7                     00007f76   defined in Debug\chess.o
+_ITC_SPR8                     00007f77   defined in Debug\chess.o
+_IWDG_KR                      000050e0   defined in Debug\chess.o
+_IWDG_PR                      000050e1   defined in Debug\chess.o
+_IWDG_RLR                     000050e2   defined in Debug\chess.o
+_PA_CR1                       00005003   defined in Debug\chess.o
+_PA_CR2                       00005004   defined in Debug\chess.o
+_PA_DDR                       00005002   defined in Debug\chess.o
+_PA_IDR                       00005001   defined in Debug\chess.o
+_PA_ODR                       00005000   defined in Debug\chess.o
+_PB_CR1                       00005008   defined in Debug\chess.o
+_PB_CR2                       00005009   defined in Debug\chess.o
+_PB_DDR                       00005007   defined in Debug\chess.o
+_PB_IDR                       00005006   defined in Debug\chess.o
+_PB_ODR                       00005005   defined in Debug\chess.o
+_PC_CR1                       0000500d   defined in Debug\chess.o
+_PC_CR2                       0000500e   defined in Debug\chess.o
+_PC_DDR                       0000500c   defined in Debug\chess.o
+_PC_IDR                       0000500b   defined in Debug\chess.o
+_PC_ODR                       0000500a   defined in Debug\chess.o
+_PD_CR1                       00005012   defined in Debug\chess.o
+_PD_CR2                       00005013   defined in Debug\chess.o
+_PD_DDR                       00005011   defined in Debug\chess.o
+_PD_IDR                       00005010   defined in Debug\chess.o
+_PD_ODR                       0000500f   defined in Debug\chess.o
+_PE_CR1                       00005017   defined in Debug\chess.o
+_PE_CR2                       00005018   defined in Debug\chess.o
+_PE_DDR                       00005016   defined in Debug\chess.o
+_PE_IDR                       00005015   defined in Debug\chess.o
+_PE_ODR                       00005014   defined in Debug\chess.o
+_PF_CR1                       0000501c   defined in Debug\chess.o
+_PF_CR2                       0000501d   defined in Debug\chess.o
+_PF_DDR                       0000501b   defined in Debug\chess.o
+_PF_IDR                       0000501a   defined in Debug\chess.o
+_PF_ODR                       00005019   defined in Debug\chess.o
+_PG_CR1                       00005021   defined in Debug\chess.o
+_PG_CR2                       00005022   defined in Debug\chess.o
+_PG_DDR                       00005020   defined in Debug\chess.o
+_PG_IDR                       0000501f   defined in Debug\chess.o
+_PG_ODR                       0000501e   defined in Debug\chess.o
+_PH_CR1                       00005026   defined in Debug\chess.o
+_PH_CR2                       00005027   defined in Debug\chess.o
+_PH_DDR                       00005025   defined in Debug\chess.o
+_PH_IDR                       00005024   defined in Debug\chess.o
+_PH_ODR                       00005023   defined in Debug\chess.o
+_PI_CR1                       0000502b   defined in Debug\chess.o
+_PI_CR2                       0000502c   defined in Debug\chess.o
+_PI_DDR                       0000502a   defined in Debug\chess.o
+_PI_IDR                       00005029   defined in Debug\chess.o
+_PI_ODR                       00005028   defined in Debug\chess.o
+_PORTA_IRQHandler             0000849b   defined in Debug\chess_stm8s105_main.o section .text
+                                         used in Debug\stm8_interrupt_vector.o
+_RST_SR                       000050b3   defined in Debug\chess.o
+_SPI_CR1                      00005200   defined in Debug\chess.o
+_SPI_CR2                      00005201   defined in Debug\chess.o
+_SPI_CRCPR                    00005205   defined in Debug\chess.o
+_SPI_DR                       00005204   defined in Debug\chess.o
+_SPI_ICR                      00005202   defined in Debug\chess.o
+_SPI_RXCRCR                   00005206   defined in Debug\chess.o
+_SPI_SR                       00005203   defined in Debug\chess.o
+_SPI_TXCRCR                   00005207   defined in Debug\chess.o
+_SWIM_CSR                     00007f80   defined in Debug\chess.o
+_TIM1_ARRH                    00005262   defined in Debug\chess.o
+_TIM1_ARRL                    00005263   defined in Debug\chess.o
+_TIM1_BKR                     0000526d   defined in Debug\chess.o
+_TIM1_CCER1                   0000525c   defined in Debug\chess.o
+_TIM1_CCER2                   0000525d   defined in Debug\chess.o
+_TIM1_CCMR1                   00005258   defined in Debug\chess.o
+_TIM1_CCMR2                   00005259   defined in Debug\chess.o
+_TIM1_CCMR3                   0000525a   defined in Debug\chess.o
+_TIM1_CCMR4                   0000525b   defined in Debug\chess.o
+_TIM1_CCR1H                   00005265   defined in Debug\chess.o
+_TIM1_CCR1L                   00005266   defined in Debug\chess.o
+_TIM1_CCR2H                   00005267   defined in Debug\chess.o
+_TIM1_CCR2L                   00005268   defined in Debug\chess.o
+_TIM1_CCR3H                   00005269   defined in Debug\chess.o
+_TIM1_CCR3L                   0000526a   defined in Debug\chess.o
+_TIM1_CCR4H                   0000526b   defined in Debug\chess.o
+_TIM1_CCR4L                   0000526c   defined in Debug\chess.o
+_TIM1_CNTRH                   0000525e   defined in Debug\chess.o
+_TIM1_CNTRL                   0000525f   defined in Debug\chess.o
+_TIM1_CR1                     00005250   defined in Debug\chess.o
+_TIM1_CR2                     00005251   defined in Debug\chess.o
+_TIM1_DTR                     0000526e   defined in Debug\chess.o
+_TIM1_EGR                     00005257   defined in Debug\chess.o
+_TIM1_ETR                     00005253   defined in Debug\chess.o
+_TIM1_IER                     00005254   defined in Debug\chess.o
+_TIM1_OISR                    0000526f   defined in Debug\chess.o
+_TIM1_PSCRH                   00005260   defined in Debug\chess.o
+_TIM1_PSCRL                   00005261   defined in Debug\chess.o
+_TIM1_RCR                     00005264   defined in Debug\chess.o
+_TIM1_SMCR                    00005252   defined in Debug\chess.o
+_TIM1_SR1                     00005255   defined in Debug\chess.o
+_TIM1_SR2                     00005256   defined in Debug\chess.o
+_TIM2_ARRH                    0000530d   defined in Debug\chess.o
+_TIM2_ARRL                    0000530e   defined in Debug\chess.o
+_TIM2_CCER1                   00005308   defined in Debug\chess.o
+_TIM2_CCER2                   00005309   defined in Debug\chess.o
+_TIM2_CCMR1                   00005305   defined in Debug\chess.o
+_TIM2_CCMR2                   00005306   defined in Debug\chess.o
+_TIM2_CCMR3                   00005307   defined in Debug\chess.o
+_TIM2_CCR1H                   0000530f   defined in Debug\chess.o
+_TIM2_CCR1L                   00005310   defined in Debug\chess.o
+_TIM2_CCR2H                   00005311   defined in Debug\chess.o
+_TIM2_CCR2L                   00005312   defined in Debug\chess.o
+_TIM2_CCR3H                   00005313   defined in Debug\chess.o
+_TIM2_CCR3L                   00005314   defined in Debug\chess.o
+_TIM2_CNTRH                   0000530a   defined in Debug\chess.o
+_TIM2_CNTRL                   0000530b   defined in Debug\chess.o
+_TIM2_CR1                     00005300   defined in Debug\chess.o
+_TIM2_EGR                     00005304   defined in Debug\chess.o
+_TIM2_IER                     00005301   defined in Debug\chess.o
+_TIM2_PSCR                    0000530c   defined in Debug\chess.o
+_TIM2_SR1                     00005302   defined in Debug\chess.o
+_TIM2_SR2                     00005303   defined in Debug\chess.o
+_TIM2_UPD_OVF_IRQHandler      00008461   defined in Debug\chess_stm8s105_main.o section .text
+                                         used in Debug\stm8_interrupt_vector.o
+_TIM3_ARRH                    0000532b   defined in Debug\chess.o
+_TIM3_ARRL                    0000532c   defined in Debug\chess.o
+_TIM3_CCER1                   00005327   defined in Debug\chess.o
+_TIM3_CCMR1                   00005325   defined in Debug\chess.o
+_TIM3_CCMR2                   00005326   defined in Debug\chess.o
+_TIM3_CCR1H                   0000532d   defined in Debug\chess.o
+_TIM3_CCR1L                   0000532e   defined in Debug\chess.o
+_TIM3_CCR2H                   0000532f   defined in Debug\chess.o
+_TIM3_CCR2L                   00005330   defined in Debug\chess.o
+_TIM3_CNTRH                   00005328   defined in Debug\chess.o
+_TIM3_CNTRL                   00005329   defined in Debug\chess.o
+_TIM3_CR1                     00005320   defined in Debug\chess.o
+_TIM3_EGR                     00005324   defined in Debug\chess.o
+_TIM3_IER                     00005321   defined in Debug\chess.o
+_TIM3_PSCR                    0000532a   defined in Debug\chess.o
+_TIM3_SR1                     00005322   defined in Debug\chess.o
+_TIM3_SR2                     00005323   defined in Debug\chess.o
+_TIM4_ARR                     00005346   defined in Debug\chess.o
+_TIM4_CNTR                    00005344   defined in Debug\chess.o
+_TIM4_CR1                     00005340   defined in Debug\chess.o
+_TIM4_EGR                     00005343   defined in Debug\chess.o
+_TIM4_IER                     00005341   defined in Debug\chess.o
+_TIM4_PSCR                    00005345   defined in Debug\chess.o
+_TIM4_SR                      00005342   defined in Debug\chess.o
+_UART2_BRR1                   00005242   defined in Debug\chess.o
+_UART2_BRR2                   00005243   defined in Debug\chess.o
+_UART2_CR1                    00005244   defined in Debug\chess.o
+_UART2_CR2                    00005245   defined in Debug\chess.o
+_UART2_CR3                    00005246   defined in Debug\chess.o
+_UART2_CR4                    00005247   defined in Debug\chess.o
+_UART2_CR6                    00005249   defined in Debug\chess.o
+_UART2_DR                     00005241   defined in Debug\chess.o
+_UART2_GTR                    0000524a   defined in Debug\chess.o
+_UART2_PSCR                   0000524b   defined in Debug\chess.o
+_UART2_SR                     00005240   defined in Debug\chess.o
+_UART_RX_IRQHandler           00009afe   defined in Debug\uart.o section .text
+                                         used in Debug\stm8_interrupt_vector.o
+_UART_TX_IRQHandler           00009aa5   defined in Debug\uart.o section .text
+                                         used in Debug\stm8_interrupt_vector.o
+_WWDG_CR                      000050d1   defined in Debug\chess.o
+_WWDG_WR                      000050d2   defined in Debug\chess.o
+__addr                        0000002d   defined in Debug\lcd_i2c.o section .ubsct
+__backlightval                00000026   defined in Debug\lcd_i2c.o section .ubsct
+__charsize                    00000027   defined in Debug\lcd_i2c.o section .ubsct
+__cols                        00000029   defined in Debug\lcd_i2c.o section .ubsct
+__displaycontrol              0000002b   defined in Debug\lcd_i2c.o section .ubsct
+__displayfunction             0000002c   defined in Debug\lcd_i2c.o section .ubsct
+__displaymode                 0000002a   defined in Debug\lcd_i2c.o section .ubsct
+__endmem                      000005ff   defined in command file
+                                         *** not used ***
+__endzp                       000000da   defined in command file section .ubsct
+                                         used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__idesc__                     000083f5   defined in linker section .init
+                                         used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__itob                        0000a4dd   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+__ltob                        0000a557   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+__memory                      00000100   defined in command file section .bss
+                                         used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__print                       0000a0aa   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)sprnt.o
+__rows                        00000028   defined in Debug\lcd_i2c.o section .ubsct
+__stack                       000007ff   defined in command file
+                                         used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__startmem                    00000100   defined in command file section .bss
+                                         *** not used ***
+__stext                       00008411   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+                                         used in Debug\stm8_interrupt_vector.o
+__udiv                        0000a5ed   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)idiv0.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+__uldiv                       0000a5f8   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+__vectab                      00008000   defined in Debug\stm8_interrupt_vector.o section .const
+_active_clock                 ********   *** removed from Debug\tm1637.o ***
+_adc_task                     0000893c   defined in Debug\chess_stm8s105_main.o section .text
+_add_task                     00009626   defined in Debug\scheduler.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_atoi                         00009f31   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)atoi.o section .text
+                                         used in Debug\uart.o
+_bonus                        000080a2   defined in Debug\chess_stm8s105_main.o section .const
+_chess_main                   ********   *** removed from Debug\chess.o ***
+_chess_std                    ********   *** removed from Debug\chess.o ***
+_chex                         00009d85   defined in Debug\uart.o section .text
+_clear_lcd                    000080b3   defined in Debug\chess_stm8s105_main.o section .const
+_clk1                         00000019   defined in Debug\chess_stm8s105_main.o section .ubsct
+                                         used in Debug\chess.o Debug\uart.o
+_clk2                         00000014   defined in Debug\chess_stm8s105_main.o section .ubsct
+                                         used in Debug\chess.o Debug\uart.o
+_clk_idx                      00000001   defined in Debug\chess_stm8s105_main.o section .bsct, initialized
+_clk_mode                     00000013   defined in Debug\chess_stm8s105_main.o section .ubsct
+_clk_pin                      00000093   defined in Debug\tm1637.o section .ubsct
+_clocks                       00008104   defined in Debug\chess_stm8s105_main.o section .const
+_col_nr                       00000000   defined in Debug\chess_stm8s105_main.o section .bsct, initialized
+_delay_msec                   00008b74   defined in Debug\delay.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+                                                 Debug\lcd_i2c.o Debug\uart.o
+_delay_usec                   00008c16   defined in Debug\delay.o section .text
+                                         used in Debug\i2c.o Debug\lcd_i2c.o
+                                                 Debug\tm1637.o
+_digit_to_segment             00008357   defined in Debug\tm1637.o section .const
+_dio_pin                      00000092   defined in Debug\tm1637.o section .ubsct
+_disable_task                 00009738   defined in Debug\scheduler.o section .text
+_dispatch_tasks               0000955d   defined in Debug\scheduler.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_divisors                     00008367   defined in Debug\tm1637.o section .const
+_ds2482_detect                000091ac   defined in Debug\i2c.o section .text
+_ds2482_detect_bb             000091c7   defined in Debug\i2c.o section .text
+_ds2482_reset                 000090a2   defined in Debug\i2c.o section .text
+_ds2482_reset_bb              000090dd   defined in Debug\i2c.o section .text
+_ds2482_search_triplet        000091e3   defined in Debug\i2c.o section .text
+_ds2482_write_config          00009169   defined in Debug\i2c.o section .text
+_ds2482_write_config_bb       00009121   defined in Debug\i2c.o section .text
+_eedata                       00004000   defined in Debug\eep.o section .eeprom
+                                         used in Debug\chess_stm8s105_main.o
+_eeprom_read_config           ********   *** removed from Debug\eep.o ***
+_eeprom_write_config          ********   *** removed from Debug\eep.o ***
+_enable_task                  000096dd   defined in Debug\scheduler.o section .text
+_execute_single_command       00009dc6   defined in Debug\uart.o section .text
+_exit                         0000845f   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+_game_mode                    00000002   defined in Debug\chess_stm8s105_main.o section .bsct, initialized
+_get_timer1_value             000084a0   defined in Debug\chess_stm8s105_main.o section .text
+_i2c_delay                    00008c3b   defined in Debug\i2c.o section .text
+_i2c_init                     00008d7b   defined in Debug\i2c.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_i2c_read                     00008e68   defined in Debug\i2c.o section .text
+_i2c_read1                    00008e57   defined in Debug\i2c.o section .text
+_i2c_readN                    00008ec0   defined in Debug\i2c.o section .text
+_i2c_read_arr                 00008e8d   defined in Debug\i2c.o section .text
+_i2c_read_bb                  00008cbc   defined in Debug\i2c.o section .text
+_i2c_rep_start                00008e0c   defined in Debug\i2c.o section .text
+_i2c_rep_start_bb             00008d53   defined in Debug\i2c.o section .text
+_i2c_scan                     00009ce0   defined in Debug\uart.o section .text
+_i2c_start                    00008df1   defined in Debug\i2c.o section .text
+                                         used in Debug\lcd_i2c.o Debug\uart.o
+_i2c_start_bb                 00008d2c   defined in Debug\i2c.o section .text
+_i2c_stop                     00008e34   defined in Debug\i2c.o section .text
+                                         used in Debug\lcd_i2c.o Debug\uart.o
+_i2c_stop_bb                  00008d65   defined in Debug\i2c.o section .text
+_i2c_write                    00008e47   defined in Debug\i2c.o section .text
+                                         used in Debug\lcd_i2c.o
+_i2c_write_bb                 00008c48   defined in Debug\i2c.o section .text
+_in_buffer                    00000094   defined in Debug\uart.o section .ubsct
+_init_black                   ********   *** removed from Debug\chess.o ***
+_init_white                   ********   *** removed from Debug\chess.o ***
+_initialise_system_clock      000084b9   defined in Debug\chess_stm8s105_main.o section .text
+_is_black_piece               ********   *** removed from Debug\chess.o ***
+_is_castling_black            ********   *** removed from Debug\chess.o ***
+_is_castling_white            ********   *** removed from Debug\chess.o ***
+_is_en_passant_white          ********   *** removed from Debug\chess.o ***
+_is_white_piece               ********   *** removed from Debug\chess.o ***
+_isr_cnt                      0000000c   defined in Debug\uart.o section .bsct, initialized
+_isspace                      00009f8d   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)isspac0.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)atoi.o
+_lcd_i2c_autoscroll_off       000093b6   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_autoscroll_on        000093a9   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_backlight_off        000093f4   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\uart.o
+_lcd_i2c_backlight_on         000093fa   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+                                                 Debug\uart.o
+_lcd_i2c_blink_off            00009365   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\uart.o
+_lcd_i2c_blink_on             00009373   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\uart.o
+_lcd_i2c_clear                000092dd   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_lcd_i2c_createChar           000093c3   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_cursor_off           00009349   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\uart.o
+_lcd_i2c_cursor_on            00009357   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\uart.o
+_lcd_i2c_display_off          0000932d   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\uart.o
+_lcd_i2c_display_on           0000933b   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\uart.o
+_lcd_i2c_expanderWrite        00009438   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_getBacklight         00009402   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_home                 000092ea   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_init                 0000925a   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_lcd_i2c_leftToRight          0000938f   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_print                00009463   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_lcd_i2c_pulseEnable          0000944a   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_rightToLeft          0000939c   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_scrollDisplayLeft    00009381   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_scrollDisplayRight   00009388   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_send                 0000940e   defined in Debug\lcd_i2c.o section .text
+_lcd_i2c_setCursor            000092f7   defined in Debug\lcd_i2c.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_lcd_i2c_write4bits           0000942f   defined in Debug\lcd_i2c.o section .text
+_list_all_tasks               000097ec   defined in Debug\scheduler.o section .text
+                                         used in Debug\uart.o
+_lm92_read                    00008fa0   defined in Debug\i2c.o section .text
+_main                         00008a8f   defined in Debug\chess_stm8s105_main.o section .text
+                                         used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+_max7219_init                 0000947e   defined in Debug\max7219.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_max7219_write                000094aa   defined in Debug\max7219.o section .text
+                                         used in Debug\chess.o
+                                                 Debug\chess_stm8s105_main.o
+                                                 Debug\uart.o
+_max_tasks                    0000000a   defined in Debug\scheduler.o section .bsct, initialized
+_mcp23017_init                00009022   defined in Debug\i2c.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_mcp23017_read                00009044   defined in Debug\i2c.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+                                                 Debug\uart.o
+_mcp23017_write               00009075   defined in Debug\i2c.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+                                                 Debug\uart.o
+_menu                         000080c8   defined in Debug\chess_stm8s105_main.o section .const
+_menu_handler                 0000870e   defined in Debug\chess_stm8s105_main.o section .text
+_millis                       00008b5e   defined in Debug\delay.o section .text
+                                         used in Debug\scheduler.o
+_new_game                     ********   *** removed from Debug\chess.o ***
+_out_buffer                   0000009e   defined in Debug\uart.o section .ubsct
+_ovf_buf_in                   0000da:3   defined in Debug\uart.o section .bit, initialized
+_pause_game                   ********   *** removed from Debug\chess.o ***
+_piece_detect_move            ********   *** removed from Debug\chess.o ***
+_print_version_number         00008a60   defined in Debug\chess_stm8s105_main.o section .text
+                                         used in Debug\uart.o
+_putchar                      0000a613   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)putchr.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+_recv_ack_bit                 00008dbc   defined in Debug\i2c.o section .text
+_reed_relays                  0000001e   defined in Debug\chess_stm8s105_main.o section .ubsct
+                                         used in Debug\chess.o
+_reed_relays_old              ********   *** removed from Debug\chess.o ***
+_ring_buffer_in               000000bc   defined in Debug\uart.o section .ubsct
+_ring_buffer_out              000000c1   defined in Debug\uart.o section .ubsct
+_rotenc_sw                    0000da:0   defined in Debug\chess_stm8s105_main.o section .bit, initialized
+_rs232_command_handler        00009d2f   defined in Debug\uart.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_rs232_inbuf                  000000c6   defined in Debug\uart.o section .ubsct
+                                         used in Debug\chess_stm8s105_main.o
+_rs232_ptr                    0000000b   defined in Debug\uart.o section .bsct, initialized
+_scan_task                    0000889a   defined in Debug\chess_stm8s105_main.o section .text
+_scheduler_init               000094f3   defined in Debug\scheduler.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_scheduler_isr                000094fc   defined in Debug\scheduler.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_set_task_time_period         00009793   defined in Debug\scheduler.o section .text
+_setup_gpio_ports             00008539   defined in Debug\chess_stm8s105_main.o section .text
+_setup_timers                 000084f0   defined in Debug\chess_stm8s105_main.o section .text
+_sprintf                      00009f9d   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)sprnt.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+                                                 Debug\scheduler.o Debug\uart.o
+_sq_begin                     ********   *** removed from Debug\chess.o ***
+_sq_begin_old                 ********   *** removed from Debug\chess.o ***
+_sq_end                       ********   *** removed from Debug\chess.o ***
+_sq_end_old                   ********   *** removed from Debug\chess.o ***
+_strcmp                       0000a616   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strcmp0.o section .text
+                                         used in Debug\scheduler.o
+_strlen                       0000a629   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strlen0.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+_strncpy                      0000a635   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strncp.o section .text
+                                         used in Debug\scheduler.o
+_t2_millis                    00000006   defined in Debug\delay.o section .bsct, initialized
+                                         used in Debug\chess_stm8s105_main.o
+_table                        ********   *** removed from Debug\chess.o ***
+_task_list                    0000002e   defined in Debug\scheduler.o section .ubsct
+_this_side_white              0000da:1   defined in Debug\chess_stm8s105_main.o section .bit, initialized
+_times1                       00008080   defined in Debug\chess_stm8s105_main.o section .const
+_times2                       00008091   defined in Debug\chess_stm8s105_main.o section .const
+_tm1637_dio_pin_input         00009877   defined in Debug\tm1637.o section .text
+_tm1637_dio_pin_output        00009889   defined in Debug\tm1637.o section .text
+_tm1637_enable_clock_nr       00009860   defined in Debug\tm1637.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_tm1637_set_brightness        000098e7   defined in Debug\tm1637.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_tm1637_set_segments          0000990d   defined in Debug\tm1637.o section .text
+_tm1637_show_nr_dec           00009944   defined in Debug\tm1637.o section .text
+_tm1637_show_nr_dec_ex        00009958   defined in Debug\tm1637.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_tm1637_start                 0000989b   defined in Debug\tm1637.o section .text
+_tm1637_stop                  000098bb   defined in Debug\tm1637.o section .text
+_tm1637_write_byte            000099fc   defined in Debug\tm1637.o section .text
+_tmr2_val                     00008bea   defined in Debug\delay.o section .text
+_tolower                      0000a65b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)tolow0.o section .text
+                                         used in Debug\uart.o
+_toupper                      0000a666   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)toup0.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+_uart_init                    00009b82   defined in Debug\uart.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_uart_kbhit                   00009cad   defined in Debug\uart.o section .text
+_uart_read                    00009c73   defined in Debug\uart.o section .text
+_uart_write                   00009bec   defined in Debug\uart.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+_update_clock                 000085f2   defined in Debug\chess_stm8s105_main.o section .text
+_update_clock_settings        000086a9   defined in Debug\chess_stm8s105_main.o section .text
+_xputs                        00009cc8   defined in Debug\uart.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+                                                 Debug\scheduler.o
+c_divsl                       0000a671   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                         *** not used ***
+c_divul                       0000a688   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o
+c_idiv                        0000a75c   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)idiv.o section .text
+                                         used in Debug\tm1637.o
+c_imul                        0000a77a   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+                                                 Debug\tm1637.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)atoi.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+c_lcmp                        0000a79b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o section .text
+                                         used in Debug\delay.o Debug\scheduler.o
+c_lgadc                       0000a7bb   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadc.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+                                                 Debug\delay.o
+c_lgadd                       0000a7cb   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadd.o section .text
+                                         used in Debug\scheduler.o
+c_lgneg                       0000a7e2   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lgsub                       0000a7f5   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgsub.o section .text
+                                         used in Debug\scheduler.o
+c_lneg                        0000a80c   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lreg                        000000d0   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o section .ubsct
+                                         used in Debug\delay.o Debug\scheduler.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadd.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgsub.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsub.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o
+c_lsub                        0000a821   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsub.o section .text
+                                         used in Debug\delay.o Debug\scheduler.o
+c_ltor                        0000a839   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o section .text
+                                         used in Debug\delay.o Debug\scheduler.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o
+c_lzmp                        0000a84b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lzmp.o section .text
+                                         used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+c_rtol                        0000a85e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o section .text
+                                         used in Debug\delay.o Debug\scheduler.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)cprint.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)itob.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)ildiv0.o
+c_sdivx                       0000a876   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)sdivx.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+c_smodx                       0000a870   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)sdivx.o section .text
+                                         *** not used ***
+c_uitolx                      0000a89b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o section .text
+                                         used in Debug\delay.o Debug\scheduler.o
+c_x                           000000d4   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
+                                         used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                 Debug\chess.o
+                                                 Debug\chess_stm8s105_main.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libis0.sm8)strlen0.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)imul.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)sdivx.o
+                                                 (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xymvx.o
+c_xymvx                       0000a8a2   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xymvx.o section .text
+                                         used in Debug\chess_stm8s105_main.o
+                                                 Debug\lcd_i2c.o Debug\uart.o
+c_y                           000000d7   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o section .ubsct
+                                         used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                 Debug\chess.o
+                                                 Debug\chess_stm8s105_main.o
+                                                 Debug\uart.o
+f_NonHandledInterrupt         0000a8b1   defined in Debug\stm8_interrupt_vector.o section .text
