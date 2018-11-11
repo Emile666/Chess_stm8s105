@@ -25,10 +25,10 @@ PCB Hardware
 ----------
 Here's schematics version 01 of the PCB Hardware.
 
-#![schematics v01](img/chess_schematics_v01.png)<br>
-#*Eagle schematics v01 of the Chess board*
+![schematics_v01](img/chess_schematics_v01.png)<br>
+*Eagle schematics v01 of the Chess board*
 
-#![pcb v01](img/chess_pcb_v01.png)<br>
-#*PCB version 01 (made by allpcb.com)*
+![pcb v01](img/chess_pcb_v01.jpg)<br>
+*PCB version 01 (made by allpcb.com)*
 
 
