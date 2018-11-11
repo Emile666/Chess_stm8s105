@@ -23,9 +23,12 @@ To be defined.
 
 PCB Hardware
 ----------
-Here's version 01 of the PCB Hardware.
+Here's schematics version 01 of the PCB Hardware.
 
-#![frontpanel](img/stc1000p_steroids_schematics.png)<br>
-#*Eagle schematics v03 of the Frontpanel with an STM8S105C6 µC*
+#![schematics v01](img/chess_schematics_v01.png)<br>
+#*Eagle schematics v01 of the Chess board*
+
+#![pcb v01](img/chess_pcb_v01.png)<br>
+#*PCB version 01 (made by allpcb.com)*
 
 
