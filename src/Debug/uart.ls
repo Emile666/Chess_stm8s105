@@ -16,8 +16,8 @@
 2680  0003 5208          	subw	sp,#8
 2683                     ; 59 	if (!ring_buffer_is_empty(&ring_buffer_out))
 2686                     ; 75     return (ring->read_offset == ring->write_offset);
-2688  0005 b62e          	ld	a,_ring_buffer_out+1
-2689  0007 b12d          	cp	a,_ring_buffer_out
+2688  0005 b624          	ld	a,_ring_buffer_out+1
+2689  0007 b123          	cp	a,_ring_buffer_out
 2690  0009 2604          	jrne	L6
 2691  000b a601          	ld	a,#1
 2692  000d 2001          	jra	L01
@@ -29,15 +29,15 @@
 2701  0014 2639          	jrne	L3571
 2702                     ; 61 		UART2_DR = ring_buffer_get(&ring_buffer_out);
 2705                     ; 104     uint8_t data = ring->buffer[ring->read_offset];
-2707  0016 b62e          	ld	a,_ring_buffer_out+1
+2707  0016 b624          	ld	a,_ring_buffer_out+1
 2708  0018 5f            	clrw	x
 2709  0019 97            	ld	xl,a
-2710  001a 92d630        	ld	a,([_ring_buffer_out+3.w],x)
+2710  001a 92d626        	ld	a,([_ring_buffer_out+3.w],x)
 2711  001d 6b05          	ld	(OFST-3,sp),a
 2713                     ; 61 		UART2_DR = ring_buffer_get(&ring_buffer_out);
-2719  001f b62e          	ld	a,_ring_buffer_out+1
+2719  001f b624          	ld	a,_ring_buffer_out+1
 2720  0021 6b02          	ld	(OFST-6,sp),a
-2724  0023 b62f          	ld	a,_ring_buffer_out+2
+2724  0023 b625          	ld	a,_ring_buffer_out+2
 2725  0025 6b01          	ld	(OFST-7,sp),a
 2727                     ; 35    return ((cur_offset == max_offset-1) ? 0 : cur_offset + 1);
 2729  0027 7b01          	ld	a,(OFST-7,sp)
@@ -56,9 +56,9 @@
 2742  003c 7b02          	ld	a,(OFST-6,sp)
 2743  003e 4c            	inc	a
 2744  003f               L41:
-2745  003f b72e          	ld	_ring_buffer_out+1,a
-2748  0041 b62e          	ld	a,_ring_buffer_out+1
-2751  0043 b62e          	ld	a,_ring_buffer_out+1
+2745  003f b724          	ld	_ring_buffer_out+1,a
+2748  0041 b624          	ld	a,_ring_buffer_out+1
+2751  0043 b624          	ld	a,_ring_buffer_out+1
 2752                     ; 106     return data;
 2754  0045 7b05          	ld	a,(OFST-3,sp)
 2755  0047 c75241        	ld	_UART2_DR,a
@@ -82,9 +82,9 @@
 2904  005b 89            	pushw	x
 2905  005c 5209          	subw	sp,#9
 2908                     ; 82 	if (!ring_buffer_is_full(&ring_buffer_in))
-2917  005e b628          	ld	a,_ring_buffer_in
+2917  005e b61e          	ld	a,_ring_buffer_in
 2918  0060 6b02          	ld	(OFST-7,sp),a
-2922  0062 b62a          	ld	a,_ring_buffer_in+2
+2922  0062 b620          	ld	a,_ring_buffer_in+2
 2923  0064 6b01          	ld	(OFST-8,sp),a
 2925                     ; 35    return ((cur_offset == max_offset-1) ? 0 : cur_offset + 1);
 2927  0066 7b01          	ld	a,(OFST-8,sp)
@@ -104,7 +104,7 @@
 2941  007d 4c            	inc	a
 2942  007e               L22:
 2943  007e 6b05          	ld	(OFST-4,sp),a
-2949  0080 b629          	ld	a,_ring_buffer_in+1
+2949  0080 b61f          	ld	a,_ring_buffer_in+1
 2950  0082 1105          	cp	a,(OFST-4,sp)
 2951  0084 2604          	jrne	L42
 2952  0086 a601          	ld	a,#1
@@ -117,15 +117,15 @@
 2962  008f 2636          	jrne	L1602
 2963                     ; 84 		ring_buffer_put(&ring_buffer_in, UART2_DR);
 2966                     ; 120     ring->buffer[ring->write_offset] = data;
-2968  0091 b628          	ld	a,_ring_buffer_in
+2968  0091 b61e          	ld	a,_ring_buffer_in
 2969  0093 5f            	clrw	x
 2970  0094 97            	ld	xl,a
 2971  0095 c65241        	ld	a,_UART2_DR
-2972  0098 92d72b        	ld	([_ring_buffer_in+3.w],x),a
+2972  0098 92d721        	ld	([_ring_buffer_in+3.w],x),a
 2973                     ; 84 		ring_buffer_put(&ring_buffer_in, UART2_DR);
-2979  009b b628          	ld	a,_ring_buffer_in
+2979  009b b61e          	ld	a,_ring_buffer_in
 2980  009d 6b03          	ld	(OFST-6,sp),a
-2984  009f b62a          	ld	a,_ring_buffer_in+2
+2984  009f b620          	ld	a,_ring_buffer_in+2
 2985  00a1 6b02          	ld	(OFST-7,sp),a
 2987                     ; 35    return ((cur_offset == max_offset-1) ? 0 : cur_offset + 1);
 2989  00a3 7b02          	ld	a,(OFST-7,sp)
@@ -144,9 +144,9 @@
 3002  00b8 7b03          	ld	a,(OFST-6,sp)
 3003  00ba 4c            	inc	a
 3004  00bb               L23:
-3005  00bb b728          	ld	_ring_buffer_in,a
-3008  00bd b628          	ld	a,_ring_buffer_in
-3011  00bf b628          	ld	a,_ring_buffer_in
+3005  00bb b71e          	ld	_ring_buffer_in,a
+3008  00bd b61e          	ld	a,_ring_buffer_in
+3011  00bf b61e          	ld	a,_ring_buffer_in
 3012                     ; 85 		ovf_buf_in = false;
 3014  00c1 72110001      	bres	_ovf_buf_in
 3016  00c5 2009          	jra	L3602
@@ -180,13 +180,13 @@
 3118                     ; 88     ring.read_offset  = 0;
 3120  00e6 0f03          	clr	(OFST-5,sp)
 3122                     ; 89     ring.size         = size;
-3124  00e8 a61e          	ld	a,#30
+3124  00e8 a614          	ld	a,#20
 3125  00ea 6b04          	ld	(OFST-4,sp),a
 3127                     ; 90     ring.buffer       = buffer;
 3129  00ec ae000a        	ldw	x,#_out_buffer
 3130  00ef 1f05          	ldw	(OFST-3,sp),x
 3132                     ; 91     return ring;
-3134  00f1 ae002d        	ldw	x,#_ring_buffer_out
+3134  00f1 ae0023        	ldw	x,#_ring_buffer_out
 3135  00f4 9096          	ldw	y,sp
 3136  00f6 72a90002      	addw	y,#OFST-6
 3137  00fa a605          	ld	a,#5
@@ -202,7 +202,7 @@
 3158  0107 ae0000        	ldw	x,#_in_buffer
 3159  010a 1f05          	ldw	(OFST-3,sp),x
 3161                     ; 91     return ring;
-3163  010c ae0028        	ldw	x,#_ring_buffer_in
+3163  010c ae001e        	ldw	x,#_ring_buffer_in
 3164  010f 9096          	ldw	y,sp
 3165  0111 72a90002      	addw	y,#OFST-6
 3166  0115 a605          	ld	a,#5
@@ -248,9 +248,9 @@
 3358  014c ae0001        	ldw	x,#1
 3359  014f cd0000        	call	_delay_msec
 3361  0152               L3322:
-3371  0152 b62d          	ld	a,_ring_buffer_out
+3371  0152 b623          	ld	a,_ring_buffer_out
 3372  0154 6b02          	ld	(OFST-6,sp),a
-3376  0156 b62f          	ld	a,_ring_buffer_out+2
+3376  0156 b625          	ld	a,_ring_buffer_out+2
 3377  0158 6b01          	ld	(OFST-7,sp),a
 3379                     ; 35    return ((cur_offset == max_offset-1) ? 0 : cur_offset + 1);
 3381  015a 7b01          	ld	a,(OFST-7,sp)
@@ -270,7 +270,7 @@
 3395  0171 4c            	inc	a
 3396  0172               L24:
 3397  0172 6b05          	ld	(OFST-3,sp),a
-3403  0174 b62e          	ld	a,_ring_buffer_out+1
+3403  0174 b624          	ld	a,_ring_buffer_out+1
 3404  0176 1105          	cp	a,(OFST-3,sp)
 3405  0178 2604          	jrne	L44
 3406  017a a601          	ld	a,#1
@@ -285,8 +285,8 @@
 3420  0185 9b            sim
 3422                     ; 131 	if (ring_buffer_is_empty(&ring_buffer_out))
 3426                     ; 75     return (ring->read_offset == ring->write_offset);
-3428  0186 b62e          	ld	a,_ring_buffer_out+1
-3429  0188 b12d          	cp	a,_ring_buffer_out
+3428  0186 b624          	ld	a,_ring_buffer_out+1
+3429  0188 b123          	cp	a,_ring_buffer_out
 3430  018a 2604          	jrne	L05
 3431  018c a601          	ld	a,#1
 3432  018e 2001          	jra	L25
@@ -301,15 +301,15 @@
 3445  019b               L7322:
 3446                     ; 135     ring_buffer_put(&ring_buffer_out, data); // Put data in buffer
 3449                     ; 120     ring->buffer[ring->write_offset] = data;
-3451  019b b62d          	ld	a,_ring_buffer_out
+3451  019b b623          	ld	a,_ring_buffer_out
 3452  019d 5f            	clrw	x
 3453  019e 97            	ld	xl,a
 3454  019f 7b09          	ld	a,(OFST+1,sp)
-3455  01a1 92d730        	ld	([_ring_buffer_out+3.w],x),a
+3455  01a1 92d726        	ld	([_ring_buffer_out+3.w],x),a
 3456                     ; 135     ring_buffer_put(&ring_buffer_out, data); // Put data in buffer
-3462  01a4 b62d          	ld	a,_ring_buffer_out
+3462  01a4 b623          	ld	a,_ring_buffer_out
 3463  01a6 6b03          	ld	(OFST-5,sp),a
-3467  01a8 b62f          	ld	a,_ring_buffer_out+2
+3467  01a8 b625          	ld	a,_ring_buffer_out+2
 3468  01aa 6b02          	ld	(OFST-6,sp),a
 3470                     ; 35    return ((cur_offset == max_offset-1) ? 0 : cur_offset + 1);
 3472  01ac 7b02          	ld	a,(OFST-6,sp)
@@ -328,9 +328,9 @@
 3485  01c1 7b03          	ld	a,(OFST-5,sp)
 3486  01c3 4c            	inc	a
 3487  01c4               L65:
-3488  01c4 b72d          	ld	_ring_buffer_out,a
-3491  01c6 b62d          	ld	a,_ring_buffer_out
-3494  01c8 b62d          	ld	a,_ring_buffer_out
+3488  01c4 b723          	ld	_ring_buffer_out,a
+3491  01c6 b623          	ld	a,_ring_buffer_out
+3494  01c8 b623          	ld	a,_ring_buffer_out
 3495                     ; 136 	enable_interrupts();                     // Re-enable interrupts
 3498  01ca 9a            rim
 3500                     ; 137 } // uart_write()
@@ -344,15 +344,15 @@
 3588       00000007      OFST:	set	7
 3591                     ; 151     return ring_buffer_get(&ring_buffer_in);
 3594                     ; 104     uint8_t data = ring->buffer[ring->read_offset];
-3596  01d0 b629          	ld	a,_ring_buffer_in+1
+3596  01d0 b61f          	ld	a,_ring_buffer_in+1
 3597  01d2 5f            	clrw	x
 3598  01d3 97            	ld	xl,a
-3599  01d4 92d62b        	ld	a,([_ring_buffer_in+3.w],x)
+3599  01d4 92d621        	ld	a,([_ring_buffer_in+3.w],x)
 3600  01d7 6b04          	ld	(OFST-3,sp),a
 3602                     ; 151     return ring_buffer_get(&ring_buffer_in);
-3608  01d9 b629          	ld	a,_ring_buffer_in+1
+3608  01d9 b61f          	ld	a,_ring_buffer_in+1
 3609  01db 6b07          	ld	(OFST+0,sp),a
-3613  01dd b62a          	ld	a,_ring_buffer_in+2
+3613  01dd b620          	ld	a,_ring_buffer_in+2
 3614  01df 6b01          	ld	(OFST-6,sp),a
 3616                     ; 35    return ((cur_offset == max_offset-1) ? 0 : cur_offset + 1);
 3618  01e1 7b01          	ld	a,(OFST-6,sp)
@@ -371,9 +371,9 @@
 3631  01f6 7b07          	ld	a,(OFST+0,sp)
 3632  01f8 4c            	inc	a
 3633  01f9               L46:
-3634  01f9 b729          	ld	_ring_buffer_in+1,a
-3637  01fb b629          	ld	a,_ring_buffer_in+1
-3640  01fd b629          	ld	a,_ring_buffer_in+1
+3634  01f9 b71f          	ld	_ring_buffer_in+1,a
+3637  01fb b61f          	ld	a,_ring_buffer_in+1
+3640  01fd b61f          	ld	a,_ring_buffer_in+1
 3641                     ; 106     return data;
 3643  01ff 7b04          	ld	a,(OFST-3,sp)
 3644  0201 6b07          	ld	(OFST+0,sp),a
@@ -387,8 +387,8 @@
 3696  0208 5203          	subw	sp,#3
 3697       00000003      OFST:	set	3
 3703                     ; 75     return (ring->read_offset == ring->write_offset);
-3705  020a b629          	ld	a,_ring_buffer_in+1
-3706  020c b128          	cp	a,_ring_buffer_in
+3705  020a b61f          	ld	a,_ring_buffer_in+1
+3706  020c b11e          	cp	a,_ring_buffer_in
 3707  020e 2604          	jrne	L07
 3708  0210 a601          	ld	a,#1
 3709  0212 2001          	jra	L27
@@ -497,21 +497,21 @@
 4037  02b5 5f            	clrw	x
 4038  02b6 97            	ld	xl,a
 4039  02b7 7b01          	ld	a,(OFST+0,sp)
-4040  02b9 e732          	ld	(_rs232_inbuf,x),a
+4040  02b9 e728          	ld	(_rs232_inbuf,x),a
 4043  02bb 200c          	jra	L7542
 4044  02bd               L1342:
 4047  02bd 72100000      	bset	L5242_cmd_rcvd
 4050  02c1 b600          	ld	a,_rs232_ptr
 4051  02c3 5f            	clrw	x
 4052  02c4 97            	ld	xl,a
-4053  02c5 6f32          	clr	(_rs232_inbuf,x)
+4053  02c5 6f28          	clr	(_rs232_inbuf,x)
 4056  02c7 3f00          	clr	_rs232_ptr
 4059  02c9               L3642:
 4060  02c9               L7542:
 4063                     	btst	L5242_cmd_rcvd
 4064  02ce 240c          	jruge	L5642
 4067  02d0 72110000      	bres	L5242_cmd_rcvd
-4070  02d4 ae0032        	ldw	x,#_rs232_inbuf
+4070  02d4 ae0028        	ldw	x,#_rs232_inbuf
 4071  02d7 ad48          	call	_execute_single_command
 4075  02d9 5b01          	addw	sp,#1
 4076  02db 81            	ret
@@ -765,13 +765,13 @@
 4748  0000 000000000000  	ds.b	10
 4749                     	xdef	_in_buffer
 4750  000a               _out_buffer:
-4751  000a 000000000000  	ds.b	30
+4751  000a 000000000000  	ds.b	20
 4752                     	xdef	_out_buffer
-4753  0028               _ring_buffer_in:
-4754  0028 0000000000    	ds.b	5
+4753  001e               _ring_buffer_in:
+4754  001e 0000000000    	ds.b	5
 4755                     	xdef	_ring_buffer_in
-4756  002d               _ring_buffer_out:
-4757  002d 0000000000    	ds.b	5
+4756  0023               _ring_buffer_out:
+4757  0023 0000000000    	ds.b	5
 4758                     	xdef	_ring_buffer_out
 4759                     	xdef	_isr_cnt
 4760                     	switch	.bit
@@ -780,8 +780,8 @@
 4763                     	xdef	_ovf_buf_in
 4764                     	xdef	_rs232_ptr
 4765                     	switch	.ubsct
-4766  0032               _rs232_inbuf:
-4767  0032 000000000000  	ds.b	10
+4766  0028               _rs232_inbuf:
+4767  0028 000000000000  	ds.b	10
 4768                     	xdef	_rs232_inbuf
 4769                     	xref.b	_clk2
 4770                     	xref.b	_clk1

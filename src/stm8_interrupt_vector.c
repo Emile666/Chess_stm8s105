@@ -39,7 +39,7 @@ extern void _stext();     /* startup routine */
 extern void TIM2_UPD_OVF_IRQHandler();
 extern void UART_TX_IRQHandler();
 extern void UART_RX_IRQHandler();
-extern void PORTA_IRQHandler();
+extern void PORTC_IRQHandler();
 
 struct interrupt_vector const _vectab[] = {
 	{0x82, (interrupt_handler_t)_stext}, /* reset */
@@ -47,9 +47,9 @@ struct interrupt_vector const _vectab[] = {
 	{0x82, NonHandledInterrupt}, /* irq00: TLI  */
 	{0x82, NonHandledInterrupt}, /* irq01: AWU  */
 	{0x82, NonHandledInterrupt}, /* irq02: CLK  */
-	{0x82, (interrupt_handler_t)PORTA_IRQHandler}, /* irq03: EXTI0, PORTA  */
+	{0x82, NonHandledInterrupt}, /* irq03: EXTI0, PORTA  */
 	{0x82, NonHandledInterrupt}, /* irq04: EXTI1, PORTB  */
-	{0x82, NonHandledInterrupt}, /* irq05: EXTI2, PORTC  */
+    {0x82, (interrupt_handler_t)PORTC_IRQHandler}, /* irq05: EXTI2, PORTC  */
 	{0x82, NonHandledInterrupt}, /* irq06: EXTI3, PORTD  */
 	{0x82, NonHandledInterrupt}, /* irq07: EXTI4, PORTE  */
 	{0x82, NonHandledInterrupt}, /* irq08: reserved  */

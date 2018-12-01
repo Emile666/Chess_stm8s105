@@ -9,6 +9,7 @@
 #include "chess_stm8s105_main.h"
 #include <stdbool.h>
 #include <ctype.h>
+#include <string.h> 
 #include "max7219.h"
 // 
 // 8 56 57 58 59 60 61 62 63
@@ -20,16 +21,10 @@
 // 2 08 09 10 11 12 13 14 15
 // 1 00 01 02 03 04 05 06 07
 //    A  B  C  D  E  F  G  H -> Files 
-uint8_t table[64];
-char    move_black_str[10];
+@near uint8_t table[64]; // not in zero page or linker gives size overflow!
+char    move_black_str[6];
 bool    move_black_received = false;
 
-// White: Positions from 00-15 ; Black: positions from 63-48
-uint8_t init_white[8] = {ROOK_WHITE,KNIGHT_WHITE,BISHOP_WHITE,QUEEN_WHITE,
-			             KING_WHITE,BISHOP_WHITE,KNIGHT_WHITE,ROOK_WHITE};
-uint8_t init_black[8] = {ROOK_BLACK,KNIGHT_BLACK,BISHOP_BLACK,QUEEN_BLACK,
-                         KING_BLACK,BISHOP_BLACK,KNIGHT_BLACK,ROOK_BLACK};
-						  
 extern uint8_t reed_relays[]; // status of all reed-relays
 extern clock_struct clk1;
 extern clock_struct clk2;
@@ -198,11 +193,17 @@ void chess_main(void)
 			// PL1 and PL2 LEDs off
 			if (new_game)
 			{
-				for (i = 0 ; i <  8; i++) table[i] = init_white[i];
+				table[0] = table[7] = ROOK_WHITE;
+                table[1] = table[6] = KNIGHT_WHITE;
+                table[2] = table[5] = BISHOP_WHITE;
+                table[3] = QUEEN_WHITE; table[4] = KING_WHITE;
 				for (i = 8 ; i < 16; i++) table[i] = PAWN_WHITE;
 				for (i = 16; i < 48; i++) table[i] = EMPTY;
 				for (i = 48; i < 56; i++) table[i] = PAWN_BLACK;
-				for (i = 56; i < 64; i++) table[i] = init_black[i-56];
+				table[56] = table[63] = ROOK_BLACK;
+                table[57] = table[62] = KNIGHT_BLACK;
+                table[58] = table[61] = BISHOP_BLACK;
+                table[59] = QUEEN_BLACK; table[60] = KING_BLACK;
 				for (i = 0; i < 8; i++)
 				{   // Set lights 00-15 and lights 48-63
 					max7219_write((MAX7219_REG_DIG0 + (i << 8)) | 0xC3);

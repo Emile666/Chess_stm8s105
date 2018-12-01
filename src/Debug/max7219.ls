@@ -10,8 +10,8 @@
 2572                     ; 38 	max7219_write(MAX7219_REG_DECD);         // No decode for digits 7-0
 2574  0001 ae0900        	ldw	x,#2304
 2575  0004 ad26          	call	_max7219_write
-2577                     ; 39 	max7219_write(MAX7219_REG_INTNS | 0x0A); // Set intensity to 15/32
-2579  0006 ae0a0a        	ldw	x,#2570
+2577                     ; 39 	max7219_write(MAX7219_REG_INTNS | 0x02); // Set intensity to 15/32
+2579  0006 ae0a02        	ldw	x,#2562
 2580  0009 ad21          	call	_max7219_write
 2582                     ; 40 	max7219_write(MAX7219_REG_SCANL | 0x07); // Display all digits
 2584  000b ae0b07        	ldw	x,#2823

@@ -9,7 +9,7 @@
 2559                     	switch	.text
 2560  0000               _scheduler_init:
 2564                     ; 40 	  memset(task_list,0x00,sizeof(task_list)); // clear task_list array
-2566  0000 ae0064        	ldw	x,#100
+2566  0000 ae004b        	ldw	x,#75
 2567  0003               L6:
 2568  0003 6fff          	clr	(_task_list-1,x)
 2569  0005 5a            	decw	x
@@ -76,7 +76,7 @@
 2680  0056               L3661:
 2681                     ; 54 	while ((index < MAX_TASKS) && task_list[index].pFunction)
 2683  0056 7b01          	ld	a,(OFST+0,sp)
-2684  0058 a104          	cp	a,#4
+2684  0058 a103          	cp	a,#3
 2685  005a 240c          	jruge	L5761
 2687  005c 7b01          	ld	a,(OFST+0,sp)
 2688  005e 97            	ld	xl,a
@@ -202,7 +202,7 @@
 2902  011b               L1371:
 2903                     ; 87 	while ((index < MAX_TASKS) && task_list[index].pFunction)
 2905  011b 7b09          	ld	a,(OFST+0,sp)
-2906  011d a104          	cp	a,#4
+2906  011d a103          	cp	a,#3
 2907  011f 240f          	jruge	L5471
 2909  0121 7b09          	ld	a,(OFST+0,sp)
 2910  0123 97            	ld	xl,a
@@ -234,7 +234,7 @@
 3040  013e 1f03          	ldw	(OFST-2,sp),x
 3042                     ; 123 	if (max_tasks >= MAX_TASKS) return ERR_MAX_TASKS;
 3044  0140 b600          	ld	a,_max_tasks
-3045  0142 a104          	cp	a,#4
+3045  0142 a103          	cp	a,#3
 3046  0144 2506          	jrult	L1202
 3049  0146 a605          	ld	a,#5
 3051  0148 201c          	jra	L42
@@ -243,7 +243,7 @@
 3055  014a 0c05          	inc	(OFST+0,sp)
 3057  014c               L1202:
 3060  014c 7b05          	ld	a,(OFST+0,sp)
-3061  014e a104          	cp	a,#4
+3061  014e a103          	cp	a,#3
 3062  0150 240c          	jruge	L5202
 3064  0152 7b05          	ld	a,(OFST+0,sp)
 3065  0154 97            	ld	xl,a
@@ -255,7 +255,7 @@
 3071  015e               L5202:
 3072                     ; 126     if (index >= MAX_TASKS)     return ERR_MAX_TASKS;
 3074  015e 7b05          	ld	a,(OFST+0,sp)
-3075  0160 a104          	cp	a,#4
+3075  0160 a103          	cp	a,#3
 3076  0162 2505          	jrult	L7202
 3079  0164 a605          	ld	a,#5
 3081  0166               L42:
@@ -673,7 +673,7 @@
 3926                     	xdef	_max_tasks
 3927                     	switch	.ubsct
 3928  0000               _task_list:
-3929  0000 000000000000  	ds.b	100
+3929  0000 000000000000  	ds.b	75
 3930                     	xdef	_task_list
 3931                     	xref	_xputs
 3932                     	xref	_millis

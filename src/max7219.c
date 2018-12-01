@@ -36,7 +36,7 @@ void max7219_init(void)
     uint8_t i;
     
 	max7219_write(MAX7219_REG_DECD);         // No decode for digits 7-0
-	max7219_write(MAX7219_REG_INTNS | 0x0A); // Set intensity to 15/32
+	max7219_write(MAX7219_REG_INTNS | 0x02); // Set intensity to 15/32
 	max7219_write(MAX7219_REG_SCANL | 0x07); // Display all digits
 	max7219_write(MAX7219_REG_SHUTD | 0x01); // Normal operation
     for (i = 0; i < 8; i++)

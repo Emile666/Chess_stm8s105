@@ -31,6 +31,7 @@
 #include "lcd_i2c.h"
 #include "max7219.h"
 #include "delay.h"
+#include "chess.h"
 
 extern int16_t  @eeprom eedata[]; // Link to .eeprom section
 extern uint32_t t2_millis;        // needed for delay_msec()
@@ -88,10 +89,10 @@ const char clocks[17][21] = {"TIME(1) 5m          ",
     TIM2_SR1 &= ~TIM2_SR1_UIF;  // Reset interrupt (UIF bit) so it will not fire again straight away.
 } // TIM2_UPD_OVF_IRQHandler()
 
-@interrupt void PORTA_IRQHandler(void)
+@interrupt void PORTC_IRQHandler(void)
 {
     rotenc_sw = true;
-} // PORTA_IRQHandler()
+} // PORTC_IRQHandler()
 
 /*-----------------------------------------------------------------------------
   Purpose  : This routine returns the value to Timer 1, which corresponds
@@ -173,13 +174,8 @@ void setup_timers(void)
 void setup_gpio_ports(void)
 {
     PA_DDR     |=  (LED_CLK | LED_LOAD | LED_DIN);            // Set as outputs
-    // NOTE: PCB v01 has ROTENC_SW connected to PA3 instead of PC3!
-    PA_DDR     &= ~ROTENC_SW;                       // Set unused pins as input
-    PA_CR1     |=  ROTENC_SW;                       // Enable pull-up
     PA_CR1     |=  (LED_CLK | LED_LOAD | LED_DIN);            // Set to Push-Pull
-    PA_CR2     |=  ROTENC_SW;                                 // Enable interrupt
     PA_ODR     &= ~(LED_CLK | LED_DIN | LED_LOAD);            // Disable PORTA outputs
-	EXTI_CR1   |=  0x02;  // PAIS bits to Falling edge (0x20 for PORTC)
     
     PB_DDR     &= ~PB_NC;            						  // Set as input
     PB_CR1     |=  PB_NC;                                     // Enable pull-up
@@ -192,6 +188,8 @@ void setup_gpio_ports(void)
 	PC_DDR     &= ~PC_NC;										 // set as Input
     PC_CR1     &= ~SPI_MISO;                      			     // set to Floating
     PC_CR1     |=  ROTENC_A | ROTENC_B | ROTENC_SW | PC_NC;      // Enable pull-up
+    PC_CR2     |=  ROTENC_SW;                                    // Enable interrupt
+	EXTI_CR1   |=  0x20;  // PAIS bits to Falling edge (0x20 for PORTC)
 
 	PD_DDR     |=  (CLK1 | DIO1 | CLK2 | DIO2 | ISR_TIME);       // Set as output
     PD_CR1     |=  (CLK1 | DIO1 | CLK2 | DIO2 | ISR_TIME);       // Set to Push-Pull
@@ -279,6 +277,7 @@ void menu_handler(void)
     static uint16_t old_rotenc;
     uint16_t        rotenc;
     
+    chess_main(); // call chess main STD
     rotenc = get_timer1_value();
     switch (menu_std)
     {
@@ -462,11 +461,11 @@ int main(void)
 
     // Initialise all tasks for the scheduler
     scheduler_init();                        // clear task_list struct
-    add_task(adc_task    ,"Sec1",  0, 1000); // every second
-    add_task(scan_task   ,"Scan",  0,   25); // every 25 msec.
-    add_task(menu_handler,"Menu",250,  500); // every 500 msec.
+    add_task(adc_task    ,"Sec1" ,  0, 1000); // every second
+    add_task(scan_task   ,"Scan" ,  0,   25); // every 25 msec.
+    add_task(menu_handler,"Menu" ,250,  500); // every 500 msec.
     enable_interrupts();
-    lcd_i2c_init(0x48,20,4,LCD_5x8DOTS); // Needs working interrupts!
+    lcd_i2c_init(0x4E,20,4,LCD_5x8DOTS); // Needs working interrupts!
     print_version_number();
     if (mcp23017_init())       
     {   // Initialize IO-expander for valves (port A input, port B output)

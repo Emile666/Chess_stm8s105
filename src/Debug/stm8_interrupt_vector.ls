@@ -25,14 +25,14 @@
   76  0011 00            	dc.b	page(f_NonHandledInterrupt)
   77  0012 0000          	dc.w	f_NonHandledInterrupt
   78  0014 82            	dc.b	130
-  80  0015 00            	dc.b	page(_PORTA_IRQHandler)
-  81  0016 0000          	dc.w	_PORTA_IRQHandler
+  80  0015 00            	dc.b	page(f_NonHandledInterrupt)
+  81  0016 0000          	dc.w	f_NonHandledInterrupt
   82  0018 82            	dc.b	130
   84  0019 00            	dc.b	page(f_NonHandledInterrupt)
   85  001a 0000          	dc.w	f_NonHandledInterrupt
   86  001c 82            	dc.b	130
-  88  001d 00            	dc.b	page(f_NonHandledInterrupt)
-  89  001e 0000          	dc.w	f_NonHandledInterrupt
+  88  001d 00            	dc.b	page(_PORTC_IRQHandler)
+  89  001e 0000          	dc.w	_PORTC_IRQHandler
   90  0020 82            	dc.b	130
   92  0021 00            	dc.b	page(f_NonHandledInterrupt)
   93  0022 0000          	dc.w	f_NonHandledInterrupt
@@ -106,7 +106,7 @@
  184  007d 00            	dc.b	page(f_NonHandledInterrupt)
  185  007e 0000          	dc.w	f_NonHandledInterrupt
  236                     	xdef	__vectab
- 237                     	xref	_PORTA_IRQHandler
+ 237                     	xref	_PORTC_IRQHandler
  238                     	xref	_UART_RX_IRQHandler
  239                     	xref	_UART_TX_IRQHandler
  240                     	xref	_TIM2_UPD_OVF_IRQHandler

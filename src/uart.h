@@ -34,7 +34,7 @@
 #define ERR_CMD	(0x01)
 #define ERR_NUM	(0x02)
 
-#define TX_BUF_SIZE (30)
+#define TX_BUF_SIZE (20)
 #define RX_BUF_SIZE (10)
 
 void    uart_init(void);
